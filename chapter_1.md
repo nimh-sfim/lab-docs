@@ -39,3 +39,8 @@
     1.   Is `git stash drop` a valid command?
     1.   What flags can be used to show the short version of
             `git status`?
+
+#### Navigation
+[Next][c2_1]
+
+[c2_1]: <chapter_2_1.md>
