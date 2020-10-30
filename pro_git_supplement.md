@@ -13,6 +13,7 @@ section due to the larger amount of content per section.
   - [Undoing Things][c2_4]
   - [Working with Remotes][c2_5]
   - [Tagging][c2_6]
+  - [Git Aliases][c2_7]
 
 [c1]: <chapter_1.md> "Chapter One"
 [c2]: <chapter_2.md> "Chapter Two"
@@ -22,3 +23,4 @@ section due to the larger amount of content per section.
 [c2_4]: <chapter_2_4.md> "Undoing Things"
 [c2_5]: <chapter_2_5.md> "Working with Remotes"
 [c2_6]: <chapter_2_6.md> "Tagging"
+[c2_7]: <chapter_2_7.md> "Git Aliases"
