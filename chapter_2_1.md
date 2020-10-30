@@ -14,5 +14,9 @@
 
 #### Navigation
 [Previous][c1]
+[Next][c2_2]
+[Chapter][c2]
 
 [c1]: <chapter_1.md>
+[c2_2]: <chapter_2_2.md>
+[c2]: <chapter_2.md>
