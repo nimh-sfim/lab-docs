@@ -10,5 +10,7 @@ Please see these resources [here][1].
 
 ### Under Construction
 This website is under construction; bear with us.
+To add content, please see our guide to [editing][2].
 
 [1]: <git.md>
+[2]: <editing.md>
