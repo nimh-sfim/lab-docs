@@ -13,4 +13,4 @@ We have supplementary questions and answers to go with Pro Git [here][4].
 [1]: <https://git-scm.com/book/en/v2> "Pro Git"
 [2]: <https://the-turing-way.netlify.app/reproducible-research/vcs.html> "The Turing Way, Version Control"
 [3]: <http://swcarpentry.github.io/git-novice/> "Version Control With Git"
-[4]: <pro_git_supplement.md> "Pro Git Supplement"
+[4]: <pro_git_supplement/pro_git_supplement.md> "Pro Git Supplement"
