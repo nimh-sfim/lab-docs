@@ -14,7 +14,9 @@ software:
   interface, and don't work with a lot of markup text, we recommend
   [Sublime][sublime].
 - For the people who love the command line and inhabit it, we recommend
-  [vim][vim], which is better than [emacs][emacs] because we said so.
+  vim (installed on MacOS and Linux by default),
+  which is better than emacs (installed on MacOS and Linux by default)
+  because we said so.
 
 ## Programming Packages
 - [miniconda3][mc3] is the preferred way of managing your python
@@ -33,9 +35,18 @@ software:
 ## Communication Platforms
 - We use [Slack][slack], because apparently we enjoy watching a gargantuan
   program devour our RAM.
-- We also use [Teams][teams], because the NIH gives it to us for free and it
-  integrates into our calendars.
+- We also use Microsoft Teams, because the NIH gives it to us for free.
+  If you're an NIH employee or fellow, it should come on your laptop.
+  Bonus: it integrates into our calendars!
   Calendar integration is essential for those of us who are organizational
   disasters.
   We try not to point fingers at who those people are, but mostly it's Josh.
   Josh is the organizational disaster.
+
+[vscode]: <https://code.visualstudio.com>
+[sublime]: <https://www.sublimetext.com>
+[mc3]: <https://www.sublimetext.com>
+[pyc]: <https://www.jetbrains.com/pycharm/>
+[afni]: <https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html>
+[pp]: <https://www.psychopy.org>
+[slack]: <https://slack.com>
