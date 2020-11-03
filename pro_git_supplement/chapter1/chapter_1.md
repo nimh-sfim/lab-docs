@@ -43,4 +43,7 @@
 #### Navigation
 [Next][c2_1]
 
-[c2_1]: <chapter_2_1.md>
+[Contents][c2]
+
+[c2_1]: <../chapter2/chapter_2_1.md>
+[c2]: <../pro_git_supplement.md>

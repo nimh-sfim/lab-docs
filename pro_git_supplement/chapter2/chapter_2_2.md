@@ -52,9 +52,11 @@ Exercises should be done in order.
 
 #### Navigation
 [Previous][c2_1]
+
 [Next][c2_3]
-[Chapter][c2]
+
+[Contents][c2]
 
 [c2_1]: <chapter_2_1.md>
 [c2_3]: <chapter_2_3.md>
-[c2]: <chapter_2.md>
+[c2]: <../pro_git_supplement.md>

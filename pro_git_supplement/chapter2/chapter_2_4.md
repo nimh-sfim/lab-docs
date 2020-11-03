@@ -28,10 +28,12 @@
   Note how after the unstage operation, the typo remains.
 
 #### Navigation
-[Previous][c_2_3]
-[Next][c_2_5]
-[Chapter][c2]
+[Previous][c2_3]
+
+[Next][c2_5]
+
+[Contents][c2]
 
 [c2_3]: <chapter_2_2.md>
 [c2_5]: <chapter_2_5.md>
-[c2]: <chapter_2.md>
+[c2]: <../pro_git_supplement.md>

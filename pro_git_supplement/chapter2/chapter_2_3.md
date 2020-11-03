@@ -22,9 +22,11 @@ there.
 
 #### Navigation
 [Previous][c2_2]
+
 [Next][c2_4]
-[Chapter[c2]
+
+[Contents][c2]
 
 [c2_2]: <chapter_2_2.md>
 [c2_4]: <chapter_2_4.md>
-[c2]: <chapter_2.md>
+[c2]: <../pro_git_supplement.md>
