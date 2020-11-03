@@ -1,16 +1,16 @@
 ### Undoing Things
 
 #### Questions for Understanding
-- Do tags update with a branch?
-- Can lightweight tags have messages?
-- Are tags automatically synchronized with remotes?
-- When checking out a specific tag, what type of state are you in?
-  What's one way to get out of it?
+1. Do tags update with a branch?
+1. Can lightweight tags have messages?
+1. Are tags automatically synchronized with remotes?
+1. When checking out a specific tag, what type of state are you in?
+   What's one way to get out of it?
 
 #### Exercises
-- On the recipes repository, tag the very first commit as "v0.0"
-- Check out the tag "v0.0" and then add another commit.
-  Then, return from the detached HEAD state by checkout out `main`.
+1. On the recipes repository, tag the very first commit as "v0.0"
+1. Check out the tag "v0.0" and then add another commit.
+   Then, return from the detached HEAD state by checkout out `main`.
 
 #### Navigation
 [Previous][c2_5]
