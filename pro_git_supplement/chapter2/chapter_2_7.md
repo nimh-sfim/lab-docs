@@ -1,15 +1,15 @@
 ### Undoing Things
 
 #### Questions for Understanding
-- What is the syntax for adding an alias from the command line?
+1. What is the syntax for adding an alias from the command line?
 
 #### Exercises
-- Add the unstage alias recommended in the section.
-  It is recommended to type instead of copy for understanding.
-- Create each of the following aliases as specified:
-  - `slog`: an alias for a git log which has only the short hash and commit
-    subject line.
-  - `stat`: an alias for a short git status
+1. Add the unstage alias recommended in the section.
+   It is recommended to type instead of copy for understanding.
+1. Create each of the following aliases as specified:
+   1. `slog`: an alias for a git log which has only the short hash and 
+      commit subject line.
+   1. `stat`: an alias for a short git status
 
 #### Navigation
 [Previous][c2_6]
