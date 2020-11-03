@@ -22,10 +22,12 @@
 - Fetch the repository and list all branches fetched.
   
 #### Navigation
-[Previous][c_2_4]
-[Next][c_2_6]
-[Chapter][c2]
+[Previous][c2_4]
+
+[Next][c2_6]
+
+[Contents][c2]
 
 [c2_4]: <chapter_2_4.md>
 [c2_6]: <chapter_2_6.md>
-[c2]: <chapter_2.md>
+[c2]: <../pro_git_supplement.md>

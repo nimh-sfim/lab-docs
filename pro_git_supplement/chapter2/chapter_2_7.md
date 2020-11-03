@@ -13,7 +13,8 @@
 
 #### Navigation
 [Previous][c2_6]
-[Chapter][c2]
+
+[Contents][c2]
 
 [c2_6]: <chapter_2_6.md>
-[c2]: <chapter_2.md>
+[c2]: <../pro_git_supplement.md>
