@@ -5,7 +5,7 @@
    untracked?
 1. Can you add folders with the `git add` command?
 1. When running `git status`, you can see that a file has been
-   modified with changes to be committed, \emph{and} modified with
+   modified with changes to be committed, *and* modified with
    changes not staged for commit. What happened?
 1. When running `git status -s`, what is the left column? The
    right?
