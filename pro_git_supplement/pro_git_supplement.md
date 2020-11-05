@@ -16,6 +16,7 @@ section due to the larger amount of content per section.
   - [Git Aliases][c2_7]
 - Chapter Three
   - [Branches in a Nutshell][c3_1]
+  - [Basic Branching and Merging][c3_2]
 
 [c1]: <chapter1/chapter_1.md> "Chapter One"
 [c2_1]: <chapter2/chapter_2_1.md> "Getting a Git Repository"
@@ -26,3 +27,4 @@ section due to the larger amount of content per section.
 [c2_6]: <chapter2/chapter_2_6.md> "Tagging"
 [c2_7]: <chapter2/chapter_2_7.md> "Git Aliases"
 [c3_1]: <chapter3/chapter_3_1.md> "Branches in a Nutshell"
+[c3_2]: <chapter3/chapter_3_2.md> "Basic Branching and Merging"
