@@ -14,6 +14,8 @@ section due to the larger amount of content per section.
   - [Working with Remotes][c2_5]
   - [Tagging][c2_6]
   - [Git Aliases][c2_7]
+- Chapter Three
+  - [Branches in a Nutshell][c3_1]
 
 [c1]: <chapter1/chapter_1.md> "Chapter One"
 [c2_1]: <chapter2/chapter_2_1.md> "Getting a Git Repository"
@@ -23,3 +25,4 @@ section due to the larger amount of content per section.
 [c2_5]: <chapter2/chapter_2_5.md> "Working with Remotes"
 [c2_6]: <chapter2/chapter_2_6.md> "Tagging"
 [c2_7]: <chapter2/chapter_2_7.md> "Git Aliases"
+[c3_1]: <chapter3/chapter_3_1.md> "Branches in a Nutshell"
