@@ -18,6 +18,13 @@ software:
   which is better than emacs (installed on MacOS and Linux by default)
   because we said so.
 
+  ---
+  **NOTE**
+  
+  Dan actually prefers emacs 4ever, but he is wrong.
+
+  ---
+
 ## Programming Packages
 - [miniconda3][mc3] is the preferred way of managing your python
   environments.
