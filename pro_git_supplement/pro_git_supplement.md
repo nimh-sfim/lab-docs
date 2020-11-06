@@ -18,6 +18,7 @@ section due to the larger amount of content per section.
   - [Branches in a Nutshell][c3_1]
   - [Basic Branching and Merging][c3_2]
   - [Branch Management][c3_3]
+  - [Branching Workflows][c3_4]
 
 [c1]: <chapter1/chapter_1.md> "Chapter One"
 [c2_1]: <chapter2/chapter_2_1.md> "Getting a Git Repository"
@@ -30,3 +31,4 @@ section due to the larger amount of content per section.
 [c3_1]: <chapter3/chapter_3_1.md> "Branches in a Nutshell"
 [c3_2]: <chapter3/chapter_3_2.md> "Basic Branching and Merging"
 [c3_3]: <chapter3/chapter_3_3.md> "Branch Management"
+[c3_4]: <chapter3/chapter_3_4.md> "Branching Workflows"
