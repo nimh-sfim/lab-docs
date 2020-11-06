@@ -35,7 +35,10 @@ Do exercises in order in the recipes repository.
 #### Navigation
 [Previous][c3_4]
 
+[Next][c3_6]
+
 [Contents][c2]
 
 [c3_4]: <chapter_3_4.md>
+[c3_6]: <chapter_3_6.md>
 [c2]: <../pro_git_supplement.md>
