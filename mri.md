@@ -44,3 +44,4 @@
 [neurohack]: <https://neurohackademy.org/course_type/lectures/>
 [afni_handouts]: <https://afni.nimh.nih.gov/class_handouts>
 [pete_molfese]: <https://blog.cogneurostats.com>
+[layerfmri]: <https://layerfmri.com>
