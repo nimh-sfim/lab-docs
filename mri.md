@@ -7,6 +7,7 @@
 - [The Basics of MRI, Joseph P. Hornak][basics_mri]
 - [practiCal fMRI][practical_fmri]
 - [Spin that resonates][spin_resonates]
+- [layerfmri][layerfmri]
 
 ## Papers
 - [20 Years of fMRI][twenty_years]
