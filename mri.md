@@ -34,7 +34,7 @@
 [andy_brain_old]: <http://andysbrainblog.blogspot.com>
 [fmri_nih_summer]: <https://fmrif.nimh.nih.gov/public/fmri-course/>
 [basics_mri]: <http://www.cis.rit.edu/htbooks/mri/inside.htm>
-[practical_mri]: <https://practicalfmri.blogspot.com>
+[practical_fmri]: <https://practicalfmri.blogspot.com>
 [spin_resonates]: <http://spinthatresonates.blogspot.com>
 [twenty_years]: <http://www.sciencedirect.com/science/journal/10538119/62/2>
 [afni_camp_yt]: <https://www.youtube.com/channel/UC40RiNZN7_dCuB6Lg7HJl1g>
