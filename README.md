@@ -8,6 +8,9 @@ We have curated some Git resources for the usage of both SFIM and other
 scientific programmers and researchers.
 Please see these resources [here][1].
 
+### Software Resources
+We have a set of recommended SFIM software installations [here][software].
+
 ### Programming Resources
 We have a list of recommended programming resources [here][programming].
 
@@ -17,4 +20,5 @@ To add content, please see our guide to [editing][2].
 
 [1]: <git.md>
 [2]: <editing.md>
+[software]: <software.md>
 [programming]: <programming.md>
