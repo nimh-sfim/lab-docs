@@ -9,6 +9,7 @@ The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih
 - [MRI][mri]
 - [Recommended Software][software]
 - [Programming][programming]
+- [Helpful Tips][tips]
 
 ### Under Construction
 This website is under construction; bear with us.
@@ -19,3 +20,4 @@ To add content, please see our guide to [editing][2].
 [2]: <editing.md>
 [software]: <software.md>
 [programming]: <programming.md>
+[tips]: <tips.md>
