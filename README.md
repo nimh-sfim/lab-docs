@@ -10,6 +10,7 @@ The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih
 - [Recommended Software][software]
 - [Programming][programming]
 - [BIDS Specification][bids]
+- [Biowulf/NIH HPC][hpc]
 - [Helpful Tips][tips]
 
 ### Under Construction
@@ -22,4 +23,5 @@ To add content, please see our guide to [editing][2].
 [software]: <software.md>
 [programming]: <programming.md>
 [bids]: <https://bids-specification.readthedocs.io/en/stable/>
+[hpc]: <hpc.md>
 [tips]: <tips.md>
