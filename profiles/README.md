@@ -1,11 +1,22 @@
 # Profiles
+Profiles are files, often beginning with a `.` in Unix in order to hide
+them, which contain information for your terminal and terminal-based
+programs to access every time they run.
+Anything ending in `.sh` is a shell script which you can run to help
+configure your command-line environment.
 This directory contains a few helpful files
 - `set_git_config.sh` will set some helpful git aliases and defaults.
   (HIGHLY RECOMMENDED).
-- `vimrc` is a sample .vimrc that Josh uses.
+  A git profile will set up consistent options and settings for your git
+  workflows.
+- `vimrc` is a sample .vimrc that Josh uses, useful if you will be using
+  the text editor `vim`.
   You can replace an existing `.vimrc` with this one.
+- `.bash_profile` gets run every time you start a new terminal with the
+  bash shell.
 - `set_config.sh` is going to run `set_git_config.sh` and create the
   `.vimrc` for you, overwriting one if it exists.
+  It will also create a `.bash_profile` if one does not exist.
 
 ## Git Profile
 The script will 
