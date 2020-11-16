@@ -21,6 +21,10 @@ We recommend following GitHub's instructions [here][ssh-keys] to create SSH
 keys.
 Please create and remember your SSH key password!
 You will only need to enter it ocassionally.
+
+Once you've created your key locally, you will need to associate it with
+your GitHub account.
+You can use GitHub's instructions [here][gh_affiliate].
 Make sure that once you've set up your SSH keys, your remotes are set up to
 use the SSH addresses rather than HTTPS.
 You can do this by going to the repository, clicking on the "code" tab, and
@@ -33,8 +37,13 @@ git remote add NAME NEW_LINK
 ```
 and you will be set up to use SSH keys.
 
+Keep in mind that each SSH key pair is associated with only one machine.
+If you change machines or take ownership on a new one, you will need a new
+SSH key pair.
+
 [1]: <https://git-scm.com/book/en/v2> "Pro Git"
 [2]: <https://the-turing-way.netlify.app/reproducible-research/vcs.html> "The Turing Way, Version Control"
 [3]: <http://swcarpentry.github.io/git-novice/> "Version Control With Git"
+[gh_affiliate]: <https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account>
 [ssh-keys]:<https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
 [4]: <pro_git_supplement/pro_git_supplement.md> "Pro Git Supplement"
