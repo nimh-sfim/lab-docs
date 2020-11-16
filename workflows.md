@@ -6,7 +6,9 @@ accomodate more contributors.
 
 1. [Simple Tracking](#simple-tracking)
 1. [Collaborative Branching](#collaborative-branching)
-1. [Advanced Collaboration](#advanced-collaboration)
+
+In addition to collaborative workflows, we have a recommended approach for
+programming in general [here][approach].
 
 ## Simple Tracking
 
@@ -271,6 +273,7 @@ git merge upstream/main
 ```
 while on the branch which you'd like to integrate the changes into.
 
+[approach]: <approach.md>
 [gh_newrepo]: <https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo>
 [gh_clone]: <https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository>
 [gh_issues]: <https://guides.github.com/features/issues/>
