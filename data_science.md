@@ -7,7 +7,7 @@ coursera coureses if needed.
 ## Website Resources
 - [Statistical Thinking for the 21 Century, Russ Poldrack][poldrack]
 - [Introduction to Data Science in Python, Tal Yarkoni][yarkoni]
-- [UCSD COGS 108, Voytek adn Donoghue][voytek]
+- [UCSD COGS 108, Voytek and Donoghue][voytek]
 
 ## Courseras
 - [Python for Data Science and AI, IBM][ibm]
