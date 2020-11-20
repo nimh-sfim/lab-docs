@@ -1,7 +1,8 @@
 # Profiles
-Profiles are files, often beginning with a `.` in Unix in order to hide
-them, which contain information for your terminal and terminal-based
-programs to access every time they run.
+Profiles are files, often beginning with a `.` in which contain
+information for your terminal and terminal-based programs to
+access every time they run. This files are normally hidden when
+you type `ls`. `ls -a` will show files beginning with a `.`
 Anything ending in `.sh` is a shell script which you can run to help
 configure your command-line environment.
 This directory contains a few helpful files
