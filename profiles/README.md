@@ -2,10 +2,11 @@
 Profiles are files, often beginning with a `.` in which contain
 information for your terminal and terminal-based programs to
 access every time they run. This files are normally hidden when
-you type `ls`. `ls -a` will show files beginning with a `.`
-Anything ending in `.sh` is a shell script which you can run to help
-configure your command-line environment.
-This directory contains a few helpful files
+you type `ls`.
+`ls -a` will show files beginning with a `.` and anything ending in `.sh`
+is a shell script which you can run to help configure your command-line
+environment.
+This directory contains a few helpful files:
 - `set_git_config.sh` will set some helpful git aliases and defaults.
   (HIGHLY RECOMMENDED).
   A git profile will set up consistent options and settings for your git
