@@ -27,3 +27,5 @@ An additional recommendation is to add the following line to your
 *.ipynb
 ```
 to make sure you don't accidentally track a notebook.
+Every time you change your notebook and want to commit it, you must run the
+`jupytext` conversion to python noted above.
