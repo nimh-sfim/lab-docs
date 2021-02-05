@@ -2,31 +2,31 @@
 
 ## Websites
 
-- [Andy's Brain Blog](andy_brain)
-  - [old blog](andy_brain_old)
-- [fMRI NIH Summer Course Slides](fmri_nih_summer)
-- [The Basics of MRI, Joseph P. Hornak](basics_mri)
-- [practiCal fMRI](practical_fmri)
-- [Spin that resonates](spin_resonates)
-- [layerfmri](layerfmri)
+- [Andy's Brain Blog][andy_brain]
+  - [old blog][andy_brain_old]
+- [fMRI NIH Summer Course Slides][fmri_nih_summer]
+- [The Basics of MRI, Joseph P. Hornak][basics_mri]
+- [practiCal fMRI][practical_fmri]
+- [Spin that resonates][spin_resonates]
+- [layerfmri][layerfmri]
 
 ## Papers
 
-- [20 Years of fMRI](twenty_years)
+- [20 Years of fMRI][twenty_years]
 
 ## Courses
 
-- [AFNI Boot Camp on YouTube](afni_camp_yt)
-- [Practical Neuroimaging by Matthew Brett](practical_ni)
+- [AFNI Boot Camp on YouTube][afni_camp_yt]
+- [Practical Neuroimaging by Matthew Brett][practical_ni]
 - Principles of fMRI by Martin Lindquist (Coursera)
-  - [Part One](p_fmri_1)
-  - [Part Two](p_fmri_2)
-- [Neurohackademy Lectures](neurohack)
+  - [Part One][p_fmri_1]
+  - [Part Two][p_fmri_2]
+- [Neurohackademy Lectures][neurohack]
 
 ## Other
 
-- [AFNI class handouts](afni_handouts)
-- [Pete Molfese's Blog](pete_molfese)
+- [AFNI class handouts][afni_handouts]
+- [Pete Molfese's Blog][pete_molfese]
 
 ## Books that should be available
 
