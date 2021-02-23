@@ -7,6 +7,7 @@ The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih
 
 - [Git][1]
 - [MRI][mri]
+- [Neuroscience][neurosci]
 - [Recommended Software][software]
 - [Programming][programming]
 - [Workflows][workflows]
@@ -23,6 +24,7 @@ To add content, please see our guide to [editing][2].
 
 [1]: <git.md>
 [mri]: <mri.md>
+[neurosci]: <neurosci.md>
 [2]: <editing.md>
 [software]: <software.md>
 [programming]: <programming.md>
