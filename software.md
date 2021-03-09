@@ -6,6 +6,8 @@ software:
 - [Programming Packages](#Programming-Packages)
 - [Scientific Software](#Scientific-Software)
 - [Communication Platforms](#Communication-Platforms)
+- [Other](#Other)
+- [iPad Apps](#iPad-Apps)
 
 ## Text Editors
 - For people who prefer to have graphical interfaces, or who work with
@@ -66,6 +68,32 @@ software:
     Sometimes advanced MATLAB graphics may not render correctly.
 - EndNote, to manage references, can be installed from "Managed Software
   Center."
+
+## iPad Apps
+- SSH (Terminus)
+    How to ssh into biowulf/helix from iPad
+    1.   Open the Apps@Work app in your ipad.
+    1.   On the top right corner, click on See All.
+    1.   Once the full list of apps load, go to the bottom of the screen 
+	 and select the “Terminus” app.
+    1.   On the “Terminus” app description page, press on the “VIEW” button,
+	 this will take you to the App Store.
+    1.   Install the “Terminus” app from the App Store
+    	 Once installation completes, the Terminus app will not yet allow 
+	 you to connect to NIH systems because it is not yet being managed 
+	 by MobileIron.
+	 This is necessary for communications to be tunneled via the VPN 
+	 that MobileIron manager on the iPad.
+	 For Javier it took 24 hours before he got a notification from 
+	 MobileIron asking me if wanted to let MobileIron manage the 
+	 Terminus app.
+	 When you get such a prompt, answer yes.
+    1.   Open the Terminus app
+    1.   It will ask you to sign in, but it is not necessary, you can
+	 continue as a guest.
+    1.   Create a new connection in the SSH section to biowulf the same way
+	 you would do in NoMachine.
+    1.   Press connect.
 
 [vscode]: <https://code.visualstudio.com>
 [sublime]: <https://www.sublimetext.com>
