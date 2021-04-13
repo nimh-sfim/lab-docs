@@ -1,6 +1,6 @@
 # Programming Resources
 
-- [Unix](#unix)
+- [Unix/Bash](#unix)
 - [Git](#git)
 - [Python](#python)
 - [MATLAB](#matlab)
@@ -8,6 +8,7 @@
 - [Code Style][style]
 
 ## Unix
+- [HPC/Biowulf Bash Course][hpc_bash]
 - [Software Carpentry: The Unix Shell][swc_shell]
 - [Cornell Linux Tutorial][cornell_linux]
 - [AFNI Unix Introduction][afni_unix]
@@ -47,3 +48,4 @@
 [awesome]: <https://github.com/vinta/awesome-python>
 [swc_matlab]: <http://swcarpentry.github.io/matlab-novice-inflammation/>
 [cy_import]: <https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html>
+[hpc_bash]: <https://hpc.nih.gov/training/bash_class/>
