@@ -1,9 +1,9 @@
 # Programming Resources
 
-- [Unix](#Unix)
-- [Git](#Git)
-- [Python](#Python)
-- [MATLAB](#MATLAB)
+- [Unix](#unix)
+- [Git](#git)
+- [Python](#python)
+- [MATLAB](#matlab)
 - [Code Review][code_review]
 - [Code Style][style]
 
@@ -16,6 +16,7 @@
 - [Lab Guide][lab_git] (Beginner; data analysis focus)
 
 ## Python
+- [Coursera specialization by University of Michigan][um_python]
 - [Software Carpentry: Programming with Python][swc_python]
 - [Gael Varoquaux's Programming Guides][gv_python] (Varying difficulties)
 - [SciPy lecture notes][sp_lecture] (Varying difficulties)
@@ -35,6 +36,7 @@
 [cornell_linux]: <https://cvw.cac.cornell.edu/Linux/default>
 [afni_unix]: <https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/index.html>
 [lab_git]: <git.md>
+[um_python]: <https://www.coursera.org/specializations/python>
 [swc_python]: <https://swcarpentry.github.io/python-novice-inflammation/>
 [gv_python]: <http://gael-varoquaux.info/programming/improving-your-programming-style-in-python.html>
 [sp_lecture]: <https://scipy-lectures.org>
