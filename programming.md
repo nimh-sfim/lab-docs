@@ -8,17 +8,20 @@
 - [Code Style][style]
 
 ## Unix
+
 - [HPC/Biowulf Bash Course][hpc_bash]
 - [Software Carpentry: The Unix Shell][swc_shell]
 - [Cornell Linux Tutorial][cornell_linux]
 - [AFNI Unix Introduction][afni_unix]
 
 ## Git
+
 - [Lab Guide][lab_git] (Beginner; data analysis focus)
 
 ## Python
+
 - [Coursera specialization by University of Michigan][um_python]
-   - [Python for Everybody (Free book for above class)][p4e]
+  - [Python for Everybody (Free book for above class)][p4e]
 - [Software Carpentry: Programming with Python][swc_python]
 - [Gael Varoquaux's Programming Guides][gv_python] (Varying difficulties)
 - [SciPy lecture notes][sp_lecture] (Varying difficulties)
@@ -31,6 +34,7 @@
 - [Python for the practicing neuroscientist][python_kramer] (more for lower level signal analysis))
 
 ## MATLAB
+
 - [Software Carpentry: Programming with MATLAB][swc_matlab]
 
 [code_review]: <code_review.md>
