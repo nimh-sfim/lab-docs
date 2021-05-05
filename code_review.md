@@ -21,7 +21,7 @@ In SFIM, a high-quality code review should be:
    You cannot expect a novice programmer to write highly complex
    implementations without large amounts of guidance or perfect style.
    If the code requires a large amount of review or interference,
-   consider co-programming.
+   consider co-programming over video call.
 
 
 ## Code Review Resources
