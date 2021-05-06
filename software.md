@@ -97,7 +97,7 @@ software:
 
 [vscode]: <https://code.visualstudio.com>
 [sublime]: <https://www.sublimetext.com>
-[mc3]: <https://www.sublimetext.com>
+[mc3]: <https://docs.conda.io/en/latest/miniconda.html>
 [pyc]: <https://www.jetbrains.com/pycharm/>
 [afni]: <https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html>
 [pp]: <https://www.psychopy.org>
