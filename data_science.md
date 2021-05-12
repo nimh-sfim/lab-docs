@@ -5,11 +5,13 @@ SFIM members can also request coursera licenses to take data science
 coursera coureses if needed.
 
 ## Website Resources
+
 - [Statistical Thinking for the 21 Century, Russ Poldrack][poldrack]
 - [Introduction to Data Science in Python, Tal Yarkoni][yarkoni]
 - [UCSD COGS 108, Voytek and Donoghue][voytek]
 
 ## Courseras
+
 - [Python for Data Science and AI, IBM][ibm]
 - [R-based Data Science Specialization, John Hopkins][jhu]
 

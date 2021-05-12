@@ -1,19 +1,24 @@
 # Programming Approach
 
 We recommend the following approach to programming:
+
 1. [Specify the Problem](#specify-the-problem)
 1. [Create Documentation and Tests](#create-documentation-and-tests)
 1. [Implement the Solution](#implement-the-solution)
 1. [Iterate in Order](#iterate-in-order)
 
 ## Specify the Problem
+
 First, you will need to specify the problem.
 For a small shell script, this may be as simple as
+
 ```
 Run this other script for each directory.
 ```
+
 where the other script is more complex.
 The specification for the other script may be
+
 ```
 Run the following analysis steps:
    1. De-identify data
@@ -22,6 +27,7 @@ Run the following analysis steps:
    4. Analyze with step B
    ...
 ```
+
 and so on.
 For simple scripts and one-off, just specify enough detail so that you and
 your collaborators are on the same page.
@@ -42,6 +48,7 @@ Most of the time this won't be required, but in cases where it is, consider
 using a large document in the repository.
 
 ## Create Documentation and Tests
+
 Once there is an agreed-upon specification, you should create documentation
 and (where possible) tests.
 
@@ -68,6 +75,7 @@ Create tests which verify that your future code will match the
 specification.
 
 ## Implement the Solution
+
 With specification, documentation, and tests in hand, you should then
 implement your solution.
 Make sure that the tests and documentation match your implementation.
@@ -82,8 +90,10 @@ believe is correct, then your documentation and tests, then your
 implementation to match.
 
 ## Iterate In Order
+
 Once you have an implementation which matches the specification and tests,
 you should change things in the same order if you decide to make revisions:
+
 1. Modify the specification.
 1. Adjust documentation and tests.
 1. Adjust the implementation.
