@@ -35,7 +35,7 @@ There are additional issues for getting git to work with VSCode, particularly si
 * If you want to access private repositories through VSCode, you'll need to set up an ssh key for git [(instructions)][git_ssh]
 * On biowulf add the following to `~/.ssh/config` with your username
 
-    ```
+    ```SSH Config
     Host github.com
       User git
       ProxyCommand /usr/bin/ssh -o ForwardAgent=yes username@biowulf.nih.gov nc -w 120ms %h %p
@@ -44,6 +44,12 @@ There are additional issues for getting git to work with VSCode, particularly si
 * When you clone a repository use `https` not `ssh` if you want to be able to access github from a biowulf compute node
 
 There is a similar issue with python environments on VScode. If you set conda or minicoda for your default python environment in your `~/profile` then NoMachine and some other programs won't function. That means you need to change to this environment later. When you open a python file in VSCode, it will ask you to select your python interpreter and your version should apear on that list. I'm not sure if there's a way to set the default interpreter in VSCode that's different from the default when you log onto biowulf.
+
+## VSCode General Guides
+
+* [VSCode's Intro Docs & Videos][vscode_docs] are good general resources
+* [VSCode keyboard short cuts][keyboard_shortcuts]
+* [VSCode key bindings for other editors][keybindings] for those who cannot live without your vi or emacs short cuts
 
 ## Suggested Exentions
 
@@ -65,3 +71,6 @@ There is a similar issue with python environments on VScode. If you set conda or
 [ssh_key]: <https://hpc.nih.gov/docs/sshkeys.html>
 [remote_extension]: <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack>
 [git_ssh]: <https://github.com/nimh-sfim/lab-docs/blob/main/git.md#creating-ssh-keys>
+[vscode_docs]: <https://code.visualstudio.com/docs>
+[keyboard_shortcuts]: <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>
+[keybindings]: <https://code.visualstudio.com/docs/getstarted/keybindings>
