@@ -39,8 +39,8 @@
 - [Software Carpentry: Programming with MATLAB][swc_matlab]
 
 ## MATLAB to Python
-- [NumPy guide for MATLAB users]: [numpy_for_matlab]
-- [Numpy vs. MATLAB cheat sheet]: [numpy_matlab_cheat_sheet]
+- [NumPy guide for MATLAB users][numpy_for_matlab]
+- [Numpy vs. MATLAB cheat sheet][numpy_matlab_cheat_sheet]
 
 [code_review]: <code_review.md>
 [style]: <style.md>
@@ -63,4 +63,4 @@
 [cy_import]: <https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html>
 [hpc_bash]: <https://hpc.nih.gov/training/bash_class/>
 [numpy_for_matlab]: https://numpy.org/doc/stable/user/numpy-for-matlab-users.html
-[numpy_matlab_cheet_sheet]: http://mathesaurus.sourceforge.net/matlab-numpy.html
+[numpy_matlab_cheat_sheet]: http://mathesaurus.sourceforge.net/matlab-numpy.html
