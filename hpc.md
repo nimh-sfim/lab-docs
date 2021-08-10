@@ -79,6 +79,7 @@ There are a few quirks with this setup. VScode will recognize your self-defined 
 4. Start an spersist node on biowulf and note the node number (i.e cn2728)
 5. With the Remote Developer Exension installed, the bottom left corner of VSCode should be a symbol like >< in green. Click it, `Connect to Host` and type in just the node number (i.e. `cn2728`).
 
+
 ## Biowulf and Python
 Sometimes biowulf and Python can have issues.
 HPC has a fairly comprehensive guide [here][biowulf_python] that you can read.
@@ -91,6 +92,11 @@ conda uninstall dbus
 ```
 which will remove the `dbus` package.
 This can cause issues if you have packages which depend on it.
+
+## Additional HPC resources
+In addition to the user guide and tutorials, Dustin Moraczewski in the Data Sharing and Science Team has helpfully created additional biowulf resources.
+Check them out [here][https://github.com/dmoracze/HPC_helper_tools].
+Several key tools are the ability to store environment in an `spersist` node on the cluster, and the ability to easily run BIDS and fMRIPrep validation.
 
 [biowulf_tutorials]: <https://hpc.nih.gov/training/intro_biowulf/>
 [biowulf_guide]: <https://hpc.nih.gov/docs/userguide.html>
