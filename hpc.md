@@ -79,6 +79,20 @@ There are a few quirks with this setup. VScode will recognize your self-defined 
 4. Start an spersist node on biowulf and note the node number (i.e cn2728)
 5. With the Remote Developer Exension installed, the bottom left corner of VSCode should be a symbol like >< in green. Click it, `Connect to Host` and type in just the node number (i.e. `cn2728`).
 
+
+## Biowulf and Python
+Sometimes biowulf and Python can have issues.
+HPC has a fairly comprehensive guide [here][biowulf_python] that you can read.
+One fairly common issue is the use of Python environments and biowulf, particularly conda.
+There is a naming conflict ("dbus") that can be introduced, and may cause NoMachine to fail intermittently.
+The solution is to first try to remove the lines inserted by conda into your `.bashrc`, so that conda does not load by default.
+In the case that this does not work, try removing `dbus` with
+```
+conda uninstall dbus
+```
+which will remove the `dbus` package.
+This can cause issues if you have packages which depend on it.
+
 ## Additional HPC resources
 In addition to the user guide and tutorials, Dustin Moraczewski in the Data Sharing and Science Team has helpfully created additional biowulf resources.
 Check them out [here][https://github.com/dmoracze/HPC_helper_tools].
@@ -89,3 +103,4 @@ Several key tools are the ability to store environment in an `spersist` node on 
 [helix_mount]: <https://hpc.nih.gov/docs/helixdrive.html>
 [module_system]: <https://hpc.nih.gov/apps/modules.html>
 [biowulf_vscode]: <https://hpc.nih.gov/apps/vscode.html>
+[biowulf_python: <https://hpc.nih.gov/apps/python.html>
