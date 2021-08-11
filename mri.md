@@ -1,36 +1,53 @@
 # MRI Resources
 
-## Websites
+## Favorite Blogs and Websites
 
-- [Andy's Brain Blog][andy_brain]
+- Tutorials by Andy
+  - [Andy's Brain Blog][andy_brain]
   - [old blog][andy_brain_old]
-- [fMRI NIH Summer Course Slides][fmri_nih_summer]
-- [The Basics of MRI, Joseph P. Hornak][basics_mri]
+- Advice from Pete Molfese
+  - [Pete Molfese's Blog][pete_molfese]
+- Layer fMRI
+  - [layerfmri][layerfmri]
 - [practiCal fMRI][practical_fmri]
 - [Spin that resonates][spin_resonates]
-- [layerfmri][layerfmri]
+- ICA (Independent Component Analysis)
+  - [ICA article] [ica_web]
+
+## Powerpoint Slides
+
+- fMRI Summer Course Videos & Slides by staff
+  - [fMRI NIH Summer Course Slides][fmri_nih_summer]
+- AFNI Data Processing Slides
+  - [AFNI class handouts][afni_handouts]
 
 ## Papers
 
-- [20 Years of fMRI][twenty_years]
+- Journal outlining past and present issues in fMRI
+  - [20 Years of fMRI by Peter Bandettini][twenty_years]
 
-## Courses
+## Courses & Lectures
 
-- [AFNI Boot Camp on YouTube][afni_camp_yt]
-- [Practical Neuroimaging by Matthew Brett][practical_ni]
-- Principles of fMRI by Martin Lindquist (Coursera)
+- Introduction to AFNI
+  - [AFNI Boot Camp on YouTube][afni_camp_yt]
+- Introduction to Neuroimaging
+  - [Practical Neuroimaging by Matthew Brett][practical_ni]
+- Introduction to MRI
+  - Principles of fMRI by Martin Lindquist (Coursera & Youtube)
   - [Part One][p_fmri_1]
   - [Part Two][p_fmri_2]
-- [Neurohackademy Lectures][neurohack]
+  - [Youtube (open-source)][p_fmri_youtube]
+- MRI physics
+  - [Assaf Tal Lectures] [physics_mri]
+- Machine learning in Neuroscience
+  - [Neurohackademy Lectures][neurohack]
+- Introduction to PCA
+  - [PCA] [intro_PCA]
 
-## Other
+## Books available by hardback or pdf
 
-- [AFNI class handouts][afni_handouts]
-- [Pete Molfese's Blog][pete_molfese]
-
-## Books that should be available
-
-- Functional Magnetic Resonance Imaging by Huettel, Song, & McCarthy (designed for undergrad introductory courses)
+- [Functional Magnetic Resonance Imaging by Huettel, Song, & McCarthy (designed for undergrad introductory courses)][huettel_pdf]
+- [The Basics of MRI, Joseph P. Hornak][basics_mri] (intro to MRI basics)
 - Introduction to Functional Magnetic Resonance Imaging by Richard Buxton (good intro to contrasts beyond BOLD)
 - Principles of Magnetic Resonance Imaging by Liang & Lauterbur (more physics and signal processing perspective)
 - Magnetic Resonance Imaging by Dwight Nishimura (electrical engineering / signal processing perspective)
@@ -51,3 +68,8 @@
 [afni_handouts]: https://afni.nimh.nih.gov/class_handouts
 [pete_molfese]: https://blog.cogneurostats.com
 [layerfmri]: https://layerfmri.com
+[huettel_pdf]: [fMRI_Huettel.pdf](https://github.com/nimh-sfim/lab-docs/files/6970064/fMRI_Huettel.pdf)
+[p_fmri_youtube]: https://www.youtube.com/channel/UC_BIby85hZmcItMrkAlc8eA/videos 
+[intro_PCA]: https://www.coursera.org/learn/pca-machine-learning?courseSlug=pca-machine-learning&showOnboardingModal=check
+[physics_mri]: https://www.weizmann.ac.il/chembiophys/assaf_tal/lecture-notes
+[ica_web]: https://towardsdatascience.com/independent-component-analysis-ica-a3eba0ccec35
