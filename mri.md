@@ -12,7 +12,7 @@
 - [practiCal fMRI][practical_fmri]
 - [Spin that resonates][spin_resonates]
 - ICA (Independent Component Analysis)
-  - [ICA article] [ica_web]
+  - [ICA article][ica_web]
 
 ## Powerpoint Slides
 
@@ -38,16 +38,16 @@
   - [Part Two][p_fmri_2]
   - [Youtube (open-source)][p_fmri_youtube]
 - MRI physics
-  - [Assaf Tal Lectures] [physics_mri]
+  - [Assaf Tal Lectures][physics_mri]
 - Machine learning in Neuroscience
   - [Neurohackademy Lectures][neurohack]
 - Introduction to PCA
-  - [PCA] [intro_PCA]
+  - [PCA][intro_PCA]
 
 ## Books available by hardback or pdf
 
 - [Functional Magnetic Resonance Imaging by Huettel, Song, & McCarthy (designed for undergrad introductory courses)][huettel_pdf]
-- [The Basics of MRI, Joseph P. Hornak][basics_mri] (intro to MRI basics)
+- [The Basics of MRI, Joseph P. Hornak][basics_mri] (intro to MRI physics basics)
 - Introduction to Functional Magnetic Resonance Imaging by Richard Buxton (good intro to contrasts beyond BOLD)
 - Principles of Magnetic Resonance Imaging by Liang & Lauterbur (more physics and signal processing perspective)
 - Magnetic Resonance Imaging by Dwight Nishimura (electrical engineering / signal processing perspective)
@@ -68,7 +68,7 @@
 [afni_handouts]: https://afni.nimh.nih.gov/class_handouts
 [pete_molfese]: https://blog.cogneurostats.com
 [layerfmri]: https://layerfmri.com
-[huettel_pdf]: [fMRI_Huettel.pdf](https://github.com/nimh-sfim/lab-docs/files/6970064/fMRI_Huettel.pdf)
+[huettel_pdf]: https://github.com/Micahh222/lab-docs/files/6970668/fMRI_Huettel.pdf
 [p_fmri_youtube]: https://www.youtube.com/channel/UC_BIby85hZmcItMrkAlc8eA/videos 
 [intro_PCA]: https://www.coursera.org/learn/pca-machine-learning?courseSlug=pca-machine-learning&showOnboardingModal=check
 [physics_mri]: https://www.weizmann.ac.il/chembiophys/assaf_tal/lecture-notes
