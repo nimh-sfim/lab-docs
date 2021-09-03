@@ -11,6 +11,7 @@
   - [layerfmri][layerfmri]
 - [practiCal fMRI][practical_fmri]
 - [Spin that resonates][spin_resonates]
+- [MRI Buzz][mri_buzz]
 - ICA (Independent Component Analysis)
   - [ICA article][ica_web]
 
@@ -72,3 +73,4 @@
 [intro_PCA]: https://www.coursera.org/learn/pca-machine-learning?courseSlug=pca-machine-learning&showOnboardingModal=check
 [physics_mri]: https://www.weizmann.ac.il/chembiophys/assaf_tal/lecture-notes
 [ica_web]: https://towardsdatascience.com/independent-component-analysis-ica-a3eba0ccec35
+[mri_buzz]: https://www.mribuzz.com/mriphysics/
