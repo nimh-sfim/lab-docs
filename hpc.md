@@ -4,6 +4,7 @@ This collates resources for using Biowulf and HPC
 
 - [Biowulf Tutorials][biowulf_tutorials]
 - [Biowulf User Guide][biowulf_guide]
+- [Installing Miniconda on Biowulf][biowulf_conda]
 - [Automount Helix Drives](#automount-helix-drives)
 - [Useful Modules](#Useful-Modules)
 - [VSCode and Biowulf](#VSCode-and-Biowulf)
@@ -100,6 +101,7 @@ Several key tools are the ability to store environment in an `spersist` node on 
 
 [biowulf_tutorials]: <https://hpc.nih.gov/training/intro_biowulf/>
 [biowulf_guide]: <https://hpc.nih.gov/docs/userguide.html>
+[biowulf_conda]: biowulf_conda.md
 [helix_mount]: <https://hpc.nih.gov/docs/helixdrive.html>
 [module_system]: <https://hpc.nih.gov/apps/modules.html>
 [biowulf_vscode]: <https://hpc.nih.gov/apps/vscode.html>
