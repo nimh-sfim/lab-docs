@@ -1,5 +1,6 @@
 # Programming Resources
 
+- [General](#general)
 - [Unix/Bash](#unix)
 - [Git](#git)
 - [Python](#python)
@@ -7,6 +8,11 @@
 - [Porting MATLAB to Python](#matlab-to-python)
 - [Code Review][code_review]
 - [Code Style][style]
+
+## General
+
+- [Software Carpentry][scarpentry]
+- [MIT's Missing Semester][MIT_semester] MIT's version of Software Carpentry
 
 ## Unix
 
@@ -44,6 +50,8 @@
 
 [code_review]: <code_review.md>
 [style]: <style.md>
+[scarpentry]: <https://software-carpentry.org/>
+[MIT_semester]: <https://missing.csail.mit.edu/>
 [swc_shell]: <http://swcarpentry.github.io/shell-novice/>
 [cornell_linux]: <https://cvw.cac.cornell.edu/Linux/default>
 [afni_unix]: <https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/index.html>
