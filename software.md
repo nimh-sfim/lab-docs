@@ -13,7 +13,7 @@ software:
 ## Text Editors
 
 - For people who prefer to have graphical interfaces, or who work with
-  various rich text formats, we recommend [Visual Studio Code][vscode]. VSCode is also has good features for working on biowulf can effectively do everything one might do on NoMachine except opening other graphical programs, like the AFNI interface. Here is our [VSCode for biowulf guide][vscode_biowulf]
+  various rich text formats, we recommend [Visual Studio Code][vscode]. VSCode is also has good features for working on biowulf can effectively do everything one might do on NoMachine except opening other graphical programs, like the AFNI interface. Here is our [VSCode guide][vscode_guide]
 - For people who are kind of command savvy, but would still like a graphical
   interface, and don't work with a lot of markup text,
   [Sublime][sublime] is a good option.
@@ -100,7 +100,7 @@ software:
     1. Press connect.
 
 [vscode]: <https://code.visualstudio.com>
-[vscode_biowulf]: vscode_biowulf.md
+[vscode_guide]: vscode_guide.md
 [sublime]: <https://www.sublimetext.com>
 [mc3]: <https://docs.conda.io/en/latest/miniconda.html>
 [afni]: <https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html>

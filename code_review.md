@@ -1,7 +1,9 @@
 # Code Review
 
 ## Guiding Code Review Principles
+
 In SFIM, a high-quality code review should be:
+
 1. Constructive: remember the human you are reviewing and treat them with
    professionalism and respect.
    It is an opportunity for the reviewee to learn more, and for the
@@ -23,9 +25,10 @@ In SFIM, a high-quality code review should be:
    If the code requires a large amount of review or interference,
    consider co-programming over video call.
 
-
 ## Code Review Resources
+
 You may use the following as resources for code review:
+
 - [MIT Reading on Code Review][mit_read] (Note: uses Java language but
   has good tips).
 

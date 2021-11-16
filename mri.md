@@ -42,8 +42,7 @@
   - [Assaf Tal Lectures][physics_mri]
 - Machine learning in Neuroscience
   - [Neurohackademy Lectures][neurohack]
-- Introduction to PCA
-  - [PCA][intro_PCA]
+- [Michele Veldsman's list of neuroimaging resources][Veldsman_list]
 
 ## Books available by hardback or online (ask lab members for access)
 
@@ -70,7 +69,7 @@
 [pete_molfese]: https://blog.cogneurostats.com
 [layerfmri]: https://layerfmri.com
 [p_fmri_youtube]: https://www.youtube.com/channel/UC_BIby85hZmcItMrkAlc8eA/videos 
-[intro_PCA]: https://www.coursera.org/learn/pca-machine-learning?courseSlug=pca-machine-learning&showOnboardingModal=check
 [physics_mri]: https://www.weizmann.ac.il/chembiophys/assaf_tal/lecture-notes
 [ica_web]: https://towardsdatascience.com/independent-component-analysis-ica-a3eba0ccec35
 [mri_buzz]: https://www.mribuzz.com/mriphysics/
+[Veldsman_list]: https://docs.google.com/document/d/1rEP71KKgBPPefnB-NpXk1DZYezNdqyEbAZ-rTd0FHio/edit?usp=sharing

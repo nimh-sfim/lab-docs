@@ -11,8 +11,10 @@
 
 ## General
 
-- [Software Carpentry][scarpentry]
+- [Software Carpentry][scarpentry] A series of courses on many useful scientific software skills. It's great to take the course, but one can also go through the classes or read through the teacher guides.
 - [MIT's Missing Semester][MIT_semester] MIT's version of Software Carpentry
+- [Research Software Engineering with Python][RSE_Python] A big picture guide through unix, git, team collaboration, testing, provenance, and packaging
+- [The Turing Way][Turing_Way] A book on effictive ways to design and support reproducible research. Focuses on coding details as well as guides to building a collaborative and supportive community.
 
 ## Unix
 
@@ -45,13 +47,21 @@
 - [Software Carpentry: Programming with MATLAB][swc_matlab]
 
 ## MATLAB to Python
+
 - [NumPy guide for MATLAB users][numpy_for_matlab]
 - [Numpy vs. MATLAB cheat sheet][numpy_matlab_cheat_sheet]
+
+## Applications
+
+- [Coursera: Machine Learning Foundations: A Case Study Approach by University of Washington](https://www.coursera.org/programs/data-science-machine-learning-yskdy?currentTab=CATALOG)
+- [Coursera: Introduction to PCA][intro_PCA]
 
 [code_review]: <code_review.md>
 [style]: <style.md>
 [scarpentry]: <https://software-carpentry.org/>
 [MIT_semester]: <https://missing.csail.mit.edu/>
+[RSE_Python]: <https://merely-useful.tech/py-rse/>
+[Turing_Way]: <https://the-turing-way.netlify.app/welcome>
 [swc_shell]: <http://swcarpentry.github.io/shell-novice/>
 [cornell_linux]: <https://cvw.cac.cornell.edu/Linux/default>
 [afni_unix]: <https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/index.html>
@@ -72,3 +82,4 @@
 [hpc_bash]: <https://hpc.nih.gov/training/bash_class/>
 [numpy_for_matlab]: https://numpy.org/doc/stable/user/numpy-for-matlab-users.html
 [numpy_matlab_cheat_sheet]: http://mathesaurus.sourceforge.net/matlab-numpy.html
+[intro_PCA]: https://www.coursera.org/learn/pca-machine-learning?courseSlug=pca-machine-learning&showOnboardingModal=check
