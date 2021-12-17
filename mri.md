@@ -14,13 +14,7 @@
 - [MRI Buzz][mri_buzz]
 - ICA (Independent Component Analysis)
   - [ICA article][ica_web]
-
-## Powerpoint Slides
-
-- fMRI Summer Course Videos & Slides by staff
-  - [fMRI NIH Summer Course Slides][fmri_nih_summer]
-- AFNI Data Processing Slides
-  - [AFNI class handouts][afni_handouts]
+  
 
 ## Papers
 
@@ -29,12 +23,14 @@
 
 ## Courses & Lectures
 
+- [NIH fMRI Summer Course Videos & Slides][fmri_nih_summer]
+  - 2018 is a series of survey lectures and the 2019 lectures address more special topics and big picture questions.
 - Introduction to AFNI
   - [AFNI Boot Camp on YouTube][afni_camp_yt]
-- Introduction to Neuroimaging
-  - [Practical Neuroimaging by Matthew Brett][practical_ni]
-- Introduction to MRI
-  - Principles of fMRI by Martin Lindquist (Coursera & Youtube)
+  - [AFNI class handouts][afni_handouts]
+- [UCSD Fundamentals of Functional Neuroimaging 2020 by Tom Liu][Tom_Liu_MRI]
+- [Practical Neuroimaging by Matthew Brett][practical_ni]
+- Principles of fMRI by Martin Lindquist (Coursera & Youtube)
   - [Part One][p_fmri_1]
   - [Part Two][p_fmri_2]
   - [Youtube (open-source)][p_fmri_youtube]
@@ -46,9 +42,9 @@
 
 ## Books available by hardback or online (ask lab members for access)
 
-- Functional Magnetic Resonance Imaging by Huettel, Song, & McCarthy (designed for undergrad introductory courses)
+- Functional Magnetic Resonance Imaging by Huettel, Song, & McCarthy (designed for undergrad introductory courses and probably the best survey of all relevant topics for someone new to neuroimaging with MRI)
 - [The Basics of MRI, Joseph P. Hornak][basics_mri] (intro to MRI physics basics)
-- Introduction to Functional Magnetic Resonance Imaging by Richard Buxton (good intro to contrasts beyond BOLD)
+- Introduction to Functional Magnetic Resonance Imaging by Richard Buxton (good intro to contrasts beyond BOLD, but last edition was 2010, before VASO and other contrasts got big)
 - Principles of Magnetic Resonance Imaging by Liang & Lauterbur (more physics and signal processing perspective)
 - Magnetic Resonance Imaging by Dwight Nishimura (electrical engineering / signal processing perspective)
 - MRI: The Basics by Hashemi, Bradley, & Lisanti (designed for radiologists to help them understand contrasts without advanced physics)
@@ -61,6 +57,7 @@
 [spin_resonates]: http://spinthatresonates.blogspot.com
 [twenty_years]: http://www.sciencedirect.com/science/journal/10538119/62/2
 [afni_camp_yt]: https://www.youtube.com/channel/UC40RiNZN7_dCuB6Lg7HJl1g
+[Tom_Liu_MRI]: https://www.youtube.com/playlist?list=PLn7hWU9T1O6FExueed50s9Wl98dzSLmXL
 [practical_ni]: http://practical-neuroimaging.github.io
 [p_fmri_1]: https://www.coursera.org/learn/functional-mri
 [p_fmri_2]: https://www.coursera.org/learn/functional-mri-2
