@@ -15,6 +15,7 @@
 - [MIT's Missing Semester][MIT_semester] MIT's version of Software Carpentry
 - [Research Software Engineering with Python][RSE_Python] A big picture guide through unix, git, team collaboration, testing, provenance, and packaging
 - [The Turing Way][Turing_Way] A book on effictive ways to design and support reproducible research. Focuses on coding details as well as guides to building a collaborative and supportive community.
+- [Good Research Code Handbook][good_research_code_handbook] by Patrick Mineault
 
 ## Unix
 
@@ -62,6 +63,7 @@
 [MIT_semester]: <https://missing.csail.mit.edu/>
 [RSE_Python]: <https://merely-useful.tech/py-rse/>
 [Turing_Way]: <https://the-turing-way.netlify.app/welcome>
+[good_research_code_handbook]: <https://goodresearch.dev/>
 [swc_shell]: <http://swcarpentry.github.io/shell-novice/>
 [cornell_linux]: <https://cvw.cac.cornell.edu/Linux/default>
 [afni_unix]: <https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/index.html>
