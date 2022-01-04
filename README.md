@@ -5,6 +5,7 @@ The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih
 
 ## Resources
 
+- [Lab Data and Code Policy][lab_policy]
 - [Git][1]
 - [MRI][mri]
 - [Neuroscience][neurosci]
@@ -35,3 +36,4 @@ To add content, please see our guide to [editing][2].
 [bids]: <https://bids-specification.readthedocs.io/en/stable/>
 [hpc]: <hpc.md>
 [tips]: <tips.md>
+[lab_policy]: <data_code_policy.md>
