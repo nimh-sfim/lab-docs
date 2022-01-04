@@ -20,7 +20,7 @@ Each repository should have some type of readme file to orient the creator’s f
 
 It should be possible to understand the steps used to process the data, even if someone cannot just re-run scripts (i.e. saying, “This is the point where ROIs were hand-drawn” or “visual inspection of data used to remove bad runs”, is fine but that should be clear) 
 
-To make sure these end goals are achieved, every SFIM study should do the following 
+# To make sure these end goals are achieved, every SFIM study should do the following 
 
 When a study is in the planning stage, decide what data/information should be stored 
 
