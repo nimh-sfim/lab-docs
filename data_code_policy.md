@@ -2,7 +2,7 @@
 
 The end goal of this policy is for someone who wasn’t directly involved in a study to know:
 - What the data are
-- How they are organized, and
+- How they are organized
 - What the code is expected to do. 
 
 # Data management 
