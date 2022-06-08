@@ -1,4 +1,5 @@
 ## NIMH Section on Functional Imaging Methods
+
 A website for hosting the Section on Functional Imaging Methods' programming
 resources and code.
 The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih.gov](https://fim.nimh.nih.gov)
@@ -6,6 +7,7 @@ The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih
 ## Resources
 
 - [Lab Data and Code Policy][lab_policy]
+- [Resources for supporting distressed coworkers][supporting_coworkers]
 - [Git][1]
 - [MRI][mri]
 - [Neuroscience][neurosci]
@@ -20,10 +22,12 @@ The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih
 - [Helpful Tips][tips]
 
 ### Under Construction
+
 This website is under construction; bear with us.
 To add content, please see our guide to [editing][2].
 
 [1]: <git.md>
+[supporting_coworkers]: <SupportingDistressedCoworkers.md>
 [mri]: <mri.md>
 [neurosci]: <neurosci.md>
 [2]: <editing.md>
