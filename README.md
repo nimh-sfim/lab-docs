@@ -1,25 +1,33 @@
-## NIMH Section on Functional Imaging Methods
+# Section on Functional Imaging Methods
 
-A website for hosting the Section on Functional Imaging Methods' programming
-resources and code.
-The Section on Functional Imaging Methods main website is: [https://fim.nimh.nih.gov](https://fim.nimh.nih.gov)
+A website for hosting useful resources for members of the [Section on Functional Imaging Methods](https://fim.nimh.nih.gov)
 
-## Resources
+## Lab and NIH Information
 
 - [Lab Data and Code Policy][lab_policy]
 - [Resources for supporting distressed coworkers][supporting_coworkers]
+- [Internal Documentation][internal]
+- [BIDS Specification][bids]
+- [Biowulf/NIH HPC][hpc]
+- [Helpful Tips][tips]
+
+## Programming resources
+
 - [Git][1]
 - [MRI][mri]
-- [Neuroscience][neurosci]
 - [Recommended Software][software]
 - [Programming][programming]
 - [Workflows][workflows]
 - [Profiles][profiles]
 - [Data Science][datascience]
-- [Internal Documentation][internal]
-- [BIDS Specification][bids]
-- [Biowulf/NIH HPC][hpc]
-- [Helpful Tips][tips]
+
+## Science resources
+
+- [Neuroscience][neurosci]
+
+## Career development resources
+
+- [NIH Training Office][training_office]
 
 ### Under Construction
 
@@ -41,3 +49,4 @@ To add content, please see our guide to [editing][2].
 [hpc]: <hpc.md>
 [tips]: <tips.md>
 [lab_policy]: <data_code_policy.md>
+[training_office]: <https://training.nih.gov>
