@@ -6,10 +6,8 @@ A website for hosting useful resources for members of the [Section on Functional
 
 - [Lab Data and Code Policy][lab_policy]
 - [Resources for supporting distressed coworkers][supporting_coworkers]
+- [COVID Guidance][covid_guidance]
 - [Internal Documentation][internal]
-- [BIDS Specification][bids]
-- [Biowulf/NIH HPC][hpc]
-- [Helpful Tips][tips]
 
 ## Programming resources
 
@@ -20,6 +18,9 @@ A website for hosting useful resources for members of the [Section on Functional
 - [Workflows][workflows]
 - [Profiles][profiles]
 - [Data Science][datascience]
+- [BIDS Specification][bids]
+- [Biowulf/NIH HPC][hpc]
+- [Helpful Tips][tips]
 
 ## Science resources
 
@@ -36,6 +37,7 @@ To add content, please see our guide to [editing][2].
 
 [1]: <git.md>
 [supporting_coworkers]: <SupportingDistressedCoworkers.md>
+[covid_guidance]: <CovidGuidance.md>
 [mri]: <mri.md>
 [neurosci]: <neurosci.md>
 [2]: <editing.md>

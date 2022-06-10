@@ -27,7 +27,7 @@ Visual Studio Code is an Integrated Development Environment (IDE) that may suppo
 
 ## VS Code on Biowulf
 
-VS Code has some nice features for using with Biowulf. Noteably, with the remote development[remote_development] extension, you can open a local copy of VS Code to save and edit scripts with no network lag, but, have scripts and command executions happen on a Biowulf node. Within VS Code, you can do anything on Biowulf except open other programs, like AFNI.
+VS Code has some nice features for using with Biowulf. Noteably, with the [remote development][remote_development] extension, you can open a local copy of VS Code to save and edit scripts with no network lag, but, have scripts and command executions happen on a Biowulf node. Within VS Code, you can do anything on Biowulf except open other programs, like AFNI.
 
 VS Code runs a remote server on Biowulf, just like NoMachine so, as long as you keep a compute node, you'll able to disconnect and reconnect to the network without affecting your working environment. If you're editing a script on your laptop, and it disconnects from the network, everything will be the same when you reconnect. Put another way, if you're doing work that involves a terminal and text editing, you can use VS Code instead of NoMachine. You can also run Jupyter notebooks within VS Code [without tunneling][jupyter_guide]. Here are the steps to get VS Code remote development working with Biowulf.
 
