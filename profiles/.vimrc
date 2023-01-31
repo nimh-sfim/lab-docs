@@ -32,7 +32,7 @@ set confirm
 set visualbell
 
 " Uncomment to allow mouse use
-" Josh does not recommend this. Embrace the keyboard.
+" Josh T does not recommend this. Embrace the keyboard.
 "set mouse=a
 
 " Display line numbers
@@ -42,7 +42,7 @@ set number
 set pastetoggle=<F11>
 
 " Tabs and spaces are contentious.
-" To match the field, the defaults are set as spaces by default, Josh
+" To match the field, the defaults are set as spaces by default, Josh T
 " disagrees with this.
 set shiftwidth=4
 set softtabstop=4
@@ -78,7 +78,7 @@ set hlsearch
 " Map [Ctrl]-L to turn off search highlighting until next search 
 " and redraw screen
 nnoremap <C-L> : nohl<CR><C-L>
-" .vimrc recommended by SFIM (but mostly Josh)
+" .vimrc recommended by SFIM (but mostly Josh T)
 " Heavily sourced from: https://vim.fandom.com/wiki/Example_vimrc
 " Thanks vim fandom!!
 
@@ -109,7 +109,7 @@ set confirm
 set visualbell
 
 " Uncomment to allow mouse use
-" Josh does not recommend this. Embrace the keyboard.
+" Josh T does not recommend this. Embrace the keyboard.
 "set mouse=a
 
 " Display line numbers
@@ -119,7 +119,7 @@ set number
 set pastetoggle=<F11>
 
 " Tabs and spaces are contentious.
-" To match the field, the defaults are set as spaces by default, Josh
+" To match the field, the defaults are set as spaces by default, Josh T
 " disagrees with this.
 set shiftwidth=4
 set softtabstop=4

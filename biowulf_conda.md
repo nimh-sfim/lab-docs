@@ -92,5 +92,5 @@ conda activate base
 ```
 If this is successful, you have a working miniconda installation on
 biowulf!
-If it is not successful, raise an issue in the repository and Josh will
+If it is not successful, raise an issue in the repository and our scientific programmer will
 address it.

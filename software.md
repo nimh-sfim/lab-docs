@@ -17,14 +17,10 @@ software:
 - For people who are kind of command savvy, but would still like a graphical
   interface, and don't work with a lot of markup text,
   [Sublime][sublime] is a good option.
-- For the people who love the command line and inhabit it, Josh recommends
-  vim (installed on MacOS and Linux by default),
-  which is better than emacs (installed on MacOS and Linux by default)
-  because Josh said so.
-
-  Note: If you love the command line and inhabit it, you probably already have
-  an opinion on the best text editor and don't care what Josh thinks. If that's
-  not you, consider one of the graphical editors.
+- For the people who love the command line and inhabit it, Josh, our former scientific programmer,
+  recommends vim (installed on MacOS and Linux by default), but if you love the command line and
+  inhabit it, you probably already have an opinion on the best text editor and don't care what
+  Josh thinks. If that's not you, consider one of the graphical editors.
 
 ## Programming Packages
 
@@ -54,8 +50,6 @@ software:
   Bonus: it integrates into our calendars!
   Calendar integration is essential for those of us who are organizational
   disasters.
-  We try not to point fingers at who those people are, but mostly it's Josh.
-  Josh is the organizational disaster.
 
 ## Other
 

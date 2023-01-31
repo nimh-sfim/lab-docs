@@ -32,7 +32,7 @@ set confirm
 set visualbell
 
 " Uncomment to allow mouse use
-" Josh does not recommend this. Embrace the keyboard.
+" Josh T does not recommend this. Embrace the keyboard.
 "set mouse=a
 
 " Display line numbers
@@ -48,7 +48,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-" Josh likes 8 spaces and real tabs on C code
+" Josh T likes 8 spaces and real tabs on C code
 autocmd Filetype c setlocal sw=8 ts=8 noexpandtab
 
 " Wrap text at 75 characters, assumes 80-character width while giving

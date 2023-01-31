@@ -11,7 +11,7 @@ This directory contains a few helpful files:
   (HIGHLY RECOMMENDED).
   A git profile will set up consistent options and settings for your git
   workflows.
-- `vimrc` is a sample .vimrc that Josh uses, useful if you will be using
+- `vimrc` is a sample .vimrc that Josh Teves uses, useful if you will be using
   the text editor `vim`.
   You can replace an existing `.vimrc` with this one.
 - `.bash_profile` gets run every time you start a new terminal with the

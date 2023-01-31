@@ -167,16 +167,16 @@ for others to review it.
 ### Request Reviewers
 Use the reviewer corner of the PR interface to request reviewers.
 Choose people who you are collaborating with on the project.
-If unsure, ask Josh to review it.
+If unsure, ask a scientific programmer or another SFIM member to review it.
 
 ---
 **NOTE**
 
-Josh is to some degree paid to review SFIM programming.
-You shouldn't hesitate to tag him to review things, because it's much easier
+SFIM's scientific programmer is, to some degree, paid to review SFIM programming.
+You shouldn't hesitate to tag them to review things, because it's much easier
 to catch bugs *before* they happen.
-He may be slow (a disclaimer that Josh will point to) but if he takes too
-long you are welcome to tag him in comments with passive aggresssive
+They may be slow but if they take too
+long you are welcome to tag them in comments with passive aggresssive
 messages like "Really looking forward to your review!
 It must be good if it's taking this long!"
 
