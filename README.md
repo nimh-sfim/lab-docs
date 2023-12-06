@@ -7,12 +7,11 @@ A website for hosting useful resources for members of the [Section on Functional
 - [Lab Data and Code Policy][lab_policy]
 - [Resources for supporting distressed coworkers][supporting_coworkers]
 - [COVID Guidance][covid_guidance]
-- [Internal Documentation][internal]
+- [Internal Onboarding Documentation][internal]
 
 ## Programming resources
 
 - [Git][1]
-- [MRI][mri]
 - [Recommended Software][software]
 - [Programming][programming]
 - [Workflows][workflows]
@@ -25,6 +24,7 @@ A website for hosting useful resources for members of the [Section on Functional
 ## Science resources
 
 - [Neuroscience][neurosci]
+- [MRI][mri]
 
 ## Career development resources
 
@@ -46,7 +46,7 @@ To add content, please see our guide to [editing][2].
 [workflows]: <workflows.md>
 [profiles]: <profiles/README.md>
 [datascience]: <data_science.md>
-[internal]: <https://teams.microsoft.com/_#/files/General?threadId=19%3A919e1081447a4d58ba4003dcfe291efb%40thread.skype&ctx=channel&context=General&rootfolder=%252Fsites%252FNIMH-SFIM%252FShared%2520Documents%252FGeneral>
+[internal]: <https://github.com/nimh-sfim/SFIM-Onboarding>
 [bids]: <https://bids-specification.readthedocs.io/en/stable/>
 [hpc]: <hpc.md>
 [tips]: <tips.md>
