@@ -15,12 +15,12 @@ using Script Editor called `HelixAutoMount.scpt` that looks like this:
 
 ```scpt
 tell application "Finder"
-    mount volume "smb://helixdrive.nih.gov/SFIM_100RUNS" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/NIMH_SFIM" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/USERNAME" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/SFIMLBC" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/SFIM" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/data" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/SFIM_100RUNS" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/NIMH_SFIM" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/USERNAME" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/SFIMLBC" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/SFIM" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/data" as user name "USERNAME"
 end tell
 ```
 
