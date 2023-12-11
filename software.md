@@ -3,14 +3,14 @@
 We have (highly subjective) recommendations for the following categories of
 software:
 
-- [Text Editors](#Text-Editors)
-- [Programming Packages](#Programming-Packages)
-- [Scientific Software](#Scientific-Software)
-- [Communication Platforms](#Communication-Platforms)
-- [Other](#Other)
-- [iPad Apps](#iPad-Apps)
+- [Text Editors](#text-editors)
+- [Programming Packages](#programming-packages)
+- [Scientific Software](#scientific-software)
+- [Communication Platforms](#communication-platforms)
+- [Other](#other)
+- [iPad Apps](#ipad-apps)
 
-Some of these software recommendations can be downloaded from the NIMH Self-Service Portal. Note that if they are not available in the portal, you will need to have an admin account to install applications and this likely means making an appointment with ITB. If that's the case, to make everyone's life easier, download the installer packages for all the programs you need before the appointment so it's just a matter of getting the password entered and you don't have to make multiple appointments.   
+Some of these software recommendations can be downloaded from the NIMH Self-Service Portal. Note that if they are not available in the portal, you will need to have an admin account to install applications and this likely means making an appointment with ITB. If that's the case, to make everyone's life easier, download the installer packages for all the programs you need before the appointment so it's just a matter of getting the password entered and you don't have to make multiple appointments.
 
 ## Text Editors
 
@@ -37,11 +37,11 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 
 - We do most of our image processing with [AFNI][afni], because they're real
   swell folks who write good programs.
-  They are also just down the hall and they're watching us. 
-    - first, install the dependencies from the NIMH Self-Service Portal
-    - then, follow the [instructions online][afni-instructions] for NIH-managed laptops
+  They are also just down the hall and they're watching us.
+  - first, install the dependencies from the NIMH Self-Service Portal
+  - then, follow the [instructions online][afni-instructions] for NIH-managed laptops
 - We present subjects in the scanner with stimulus through [PsychoPy][pp].
-  - if you are planning on doing eye-tracking, you may also need to download the [EyeLink Developers Toolkit][eyelink-api]. Downloading requires a (free) SR research account to access the forum with the links. 
+  - if you are planning on doing eye-tracking, you may also need to download the [EyeLink Developers Toolkit][eyelink-api]. Downloading requires a (free) SR research account to access the forum with the links.
 - MATLAB can be installed on your local machine with an NIH site license.
   Instructions for installing MATLAB and setting up an NIH-affiliated
   MathWorks account can be found [here][matlab].
@@ -49,7 +49,7 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 ## Communication Platforms
 
 - We use [Slack][slack], because apparently we enjoy watching a gargantuan
-  program devour our RAM. You may have been invited to different Slack workspaces with different emails, so make sure that all the groups you want to use are there. 
+  program devour our RAM. You may have been invited to different Slack workspaces with different emails, so make sure that all the groups you want to use are there.
 - We also use Microsoft Teams, because the NIH gives it to us for free.
   If you're an NIH employee or fellow, it should come on your laptop.
   Bonus: it integrates into our calendars!
@@ -59,8 +59,8 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 ## Other
 
 - [Gimp][gimp] is an image editing program that's open source and competes
-  with Photoshop. 
-- [Inkscape][inkscape] is another open source option that is comparable to Illustrator. 
+  with Photoshop.
+- [Inkscape][inkscape] is another open source option that is comparable to Illustrator.
 - [NoMachine][nomachine] and [turbovnc][tvnc] are both VNC servers that
   allow you to have graphical windows on Biowulf and allow for your
   terminal sessions to persist.
@@ -69,9 +69,9 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
     Open the .dmg file and then run TurboVNC.pkg, following instructions.
   - NoMachine you will install similarly to turbovnc.
     Sometimes advanced MATLAB graphics may not render correctly.
-- EndNote, to manage references, can be installed from "NIMH Self Service Portal" Other options (which can not be installled from the NIMH Self Service Portal) include [Zotero][zotero], [Mendeley][mendeley] or [ReadCube Papers][papers]. 
-- Adobe Acrobat - MacOS comes with the built-in Preview to view PDFs, images, etc, but you may need to install Adobe Acrobat to be able to digitally sign PDFs with your PIV card. You can install the software itself from the Self Service Portal, but will need to ask IT to add your user account to the Adobe group in order to use it. 
-  - if you need Illustrator (or other Adobe software), ask first, as we may need to pay for an account. 
+- EndNote, to manage references, can be installed from "NIMH Self Service Portal" Other options (which can not be installled from the NIMH Self Service Portal) include [Zotero][zotero], [Mendeley][mendeley] or [ReadCube Papers][papers].
+- Adobe Acrobat - MacOS comes with the built-in Preview to view PDFs, images, etc, but you may need to install Adobe Acrobat to be able to digitally sign PDFs with your PIV card. You can install the software itself from the Self Service Portal, but will need to ask IT to add your user account to the Adobe group in order to use it.
+  - if you need Illustrator (or other Adobe software), ask first, as we may need to pay for an account.
 
 ## iPad Apps
 
