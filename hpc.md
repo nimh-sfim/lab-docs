@@ -4,30 +4,30 @@ This collates resources for using Biowulf and HPC
 
 - [Automount Helix Drives](#automount-helix-drives)
 - [Useful Modules](#useful-modules)
-- [Biowulf and python](#Biowulf-and-Python)
-- [Additional HPC resources](#Additional-HPC-resources)
+- [Biowulf and python](#biowulf-and-python)
+- [Additional HPC resources](#additional-hpc-resources)
 
 ## Automount Helix Drives
 
-These are instructions for setting Helix drives to automount on MacOS.
-In order to automatically mount helix drives, you should create a script
-using Script Editor called `HelixAutoMount.scpt` that looks like this:
+These are instructions for setting Biowulf drives to automount on MacOS.
+In order to automatically mount Biowulf drives, you should create a script
+using Script Editor called `BiowulfAutoMount.scpt` that looks like this:
 
 ```scpt
 tell application "Finder"
-    mount volume "smb://helixdrive.nih.gov/SFIM_100RUNS" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/NIMH_SFIM" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/USERNAME" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/SFIMLBC" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/SFIM" as user name "USERNAME"
-    mount volume "smb://helixdrive.nih.gov/data" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/SFIM_100RUNS" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/NIMH_SFIM" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/USERNAME" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/SFIMLBC" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/SFIM" as user name "USERNAME"
+    mount volume "smb://hpcdrive.nih.gov/data" as user name "USERNAME"
 end tell
 ```
 
 with `USERNAME` your NIH username.
 The `USERNAME` address will mount to `/home/USERNAME` on biowulf.
 The `/data` address will mount to `/data/USERNAME`.
-All others will go to `/data/DIRNAME` with DIRNAME the directory name.
+All others will go to `/data/DIRNAME` with DIRNAME the directory name. Repeat for as many directories as you need.
 Then export it as an application in Script Editor.
 When you run it, it will mount the directories.
 You should be able to access them in MacOS under `/Volumes/` in Terminal.
