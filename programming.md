@@ -65,7 +65,7 @@
 [Turing_Way]: <https://the-turing-way.netlify.app/welcome>
 [good_research_code_handbook]: <https://goodresearch.dev/>
 [swc_shell]: <http://swcarpentry.github.io/shell-novice/>
-[cornell_linux]: <https://cvw.cac.cornell.edu/Linux/default>
+[cornell_linux]: <https://cvw.cac.cornell.edu/Linux>
 [afni_unix]: <https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/index.html>
 [lab_git]: <git.md>
 [um_python]: <https://www.coursera.org/specializations/python>

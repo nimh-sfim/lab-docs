@@ -9,7 +9,7 @@ That page also includes phone numbers and links to critical resources that are p
 - [Training office](https://www.training.nih.gov) Career services |  Educational counseling & advising.
 - Confidential access to mental health professionals through the [Employee Assistance Program](https://ors.od.nih.gov/sr/dohs/EAP)
 - [Civil program](https://civilworkplace.nih.gov) for reporting harassment and other things
-- [NIH Ombudsman](ombudsman.nih.gov)
+- [NIH Ombudsman](https://ombudsman.nih.gov)
 - [Occupational Medical Service](https://ors.od.nih.gov/sr/dohs/HealthAndWellness/OccupationalMedical/Pages/oms_main.aspx) for medical emergencies including abrupt behavioral changes
 - Police
   - Emergencies on the main campus: 911 for landlines & 301-496-9911 for mobile

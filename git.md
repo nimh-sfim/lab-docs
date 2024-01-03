@@ -1,21 +1,24 @@
-## Git Resources
+# Git Resources
+
 Please see below for curated Git Resources.
 
-### Recommended Reading
+## Recommended Reading
+
 - [Git Primer][1]: Brief primer that may help orient a new user terminology
 - [Pro Git][2]: chapters 1 through 3.
 - [The Turing Way][3]: "Version Control" (also includes version control for
 data).
 
-- [Creating SSH Keys](creating-ssh-keys)
+- [Creating SSH Keys](#creating-ssh-keys)
 - [Software Carpentry][4]: "Version Control With Git."
 - [Jupyter and Git][jupyter_git]
 
-### Git Training
+## Git Training
+
 We have supplementary questions and answers to go with Pro Git [here][5].
 
+## Creating SSH Keys
 
-### Creating SSH Keys
 Creating SSH keys allows you to easily authenticate to GitHub in order to
 pull and push changes without having to enter your username and password
 every time.
@@ -35,10 +38,12 @@ You can do this by going to the repository, clicking on the "code" tab, and
 then pressing the "code" drop-down menu.
 Click "SSH" and then the clipboard icon to copy the new link.
 Then, for each remote, run
-```
+
+```bash
 git remote remove NAME
 git remote add NAME NEW_LINK
 ```
+
 and you will be set up to use SSH keys.
 
 Keep in mind that each SSH key pair is associated with only one machine.

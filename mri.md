@@ -11,11 +11,9 @@
   - [layerfmri][layerfmri]
 - [practiCal fMRI][practical_fmri]
 - [Spin that resonates][spin_resonates]
-- [MRI Buzz][mri_buzz]
 - ICA (Independent Component Analysis)
   - [ICA article][ica_web]
   
-
 ## Papers
 
 - Journal outlining past and present issues in fMRI
@@ -38,7 +36,6 @@
   - [Assaf Tal Lectures][physics_mri]
 - Machine learning in Neuroscience
   - [Neurohackademy Lectures][neurohack]
-- [Michele Veldsman's list of neuroimaging resources][Veldsman_list]
 
 ## Books available by hardback or online (ask lab members for access)
 
@@ -68,5 +65,3 @@
 [p_fmri_youtube]: https://www.youtube.com/channel/UC_BIby85hZmcItMrkAlc8eA/videos 
 [physics_mri]: https://www.weizmann.ac.il/chembiophys/assaf_tal/lecture-notes
 [ica_web]: https://towardsdatascience.com/independent-component-analysis-ica-a3eba0ccec35
-[mri_buzz]: https://www.mribuzz.com/mriphysics/
-[Veldsman_list]: https://docs.google.com/document/d/1rEP71KKgBPPefnB-NpXk1DZYezNdqyEbAZ-rTd0FHio/edit?usp=sharing

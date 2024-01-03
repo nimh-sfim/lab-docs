@@ -1,10 +1,10 @@
 # Resources for using Visual Studio Code
 
-- [Overview](#Overview)
-- [VS Code General Guides](#VS-Code-General-Guides)
-- [VS Code on Biowulf](#VS-Code-on-Biowulf)
-- [GitHub and VS Code](#GitHub-and-VS-Code)
-- [Suggested Extensions](#Suggested-Extensions)
+- [Overview](#overview)
+- [VS Code General Guides](#vs-code-general-guides)
+- [VS Code on Biowulf](#vs-code-on-biowulf)
+- [GitHub and VS Code](#github-and-vs-code-on-biowulf)
+- [Suggested Extensions](#suggested-extensions)
 
 ## Overview
 
@@ -33,7 +33,7 @@ VS Code runs a remote server on Biowulf, just like NoMachine so, as long as you 
 
 [Here is a guide][vscode_biowulf_guide] to connecting directly to an interactive or persistent node on Biowulf. The key steps are to:
 
-1. Install the `Remote Developer Extension` in VS Code.
+1. Install the `Remote Developer Extension` in VS Code [(link)][remote_extension].
 2. Create an SSH key for logging into Biowulf (detailed in the [Biowulf guide][vscode_biowulf_guide])
 3. Open your ssh config file on your Mac. Likely  `/Users/$username/.ssh/config` with $username being your user ID. In that file add (again with your user ID):
 
@@ -91,7 +91,6 @@ There are additional issues for getting GitHub to work smoothly with VS Code, pa
 [remote_development]: <https://code.visualstudio.com/docs/remote/remote-overview>
 [jupyter_guide]: <https://hpc.nih.gov/apps/jupyter.html>
 [vscode_biowulf_guide]: <https://hpc.nih.gov/apps/vscode.html>
-[ssh_key]: <https://hpc.nih.gov/docs/sshkeys.html>
 [remote_extension]: <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack>
 [git_ssh]: <https://github.com/nimh-sfim/lab-docs/blob/main/git.md#creating-ssh-keys>
 [vscode_docs]: <https://code.visualstudio.com/docs>
