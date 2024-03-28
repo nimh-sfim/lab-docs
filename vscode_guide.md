@@ -44,7 +44,7 @@ VS Code runs a remote server on Biowulf, just like NoMachine so, as long as you 
     ```
 
 4. Start an spersist node on Biowulf and note the node number (i.e cn2728). Make sure you request the node in a place where it would disconnect if you're internet disconnect. That is request the node through NoMachine or `tmux`
-5. With the Remote Developer Exension installed, the bottom left corner of VS Code should be a symbol like `><` in green. Clicking on it will let you `Connect Current Window to Host` or `Connect to Host` (which will open a new VS Code window). Type in just the node number (i.e. `cn2728`) to connect.
+5. With the Remote Developer Exension installed, the bottom left corner of VS Code should be a symbol like `><` in green. Clicking on it will let you `Connect Current Window to Host` or `Connect to Host` (which will open a new VS Code window). Type in just the node number that you got in the previous step (i.e. `cn2728`) to connect.
 6. There is an added issue with python environments on VS code. If you set conda or minicoda as your default python environment in your `~/profile` then NoMachine and some other programs won't function. That means you need to change to this environment later. When you open a python file in VS Code, it will ask you to select your python interpreter and your desired version should appear on that list, but it won't be the default. If VS Code can not find a Python kernel using the remote developer extension, you may need to re-install the Jupyter extension while connected to a node.
 
 ## GitHub and VS Code on Biowulf
@@ -65,7 +65,7 @@ There are additional issues for getting GitHub to work smoothly with VS Code, pa
 
 ## Suggested Extensions
 
-(Still need to add explanations)
+The following are free extensions from the VSCode Marketplace that you may want/need to make your life easier while using VSCode. 
 
 - Anaconda Extension Pack (bundles Python & YAML extensions)
 - Python (bundles Pylance & Jupyter): Lots of useful python stuff including linting and other error checks, debugging tools, etc. This is needed to be able to run Python code in VS Code
