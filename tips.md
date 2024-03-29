@@ -20,8 +20,6 @@ We recommend the following procedure:
 
 If you are using Git on Biowulf, you might get some weird fatal errors when you start a new session. If this happens, try to restart the ssh-agent and re-add the key (instructions [here][ssh-add] from GitHub)
 
-[ssh-add]:https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
-
 ## Aliases
 
 Adding aliases to your `.bashrc` (or the profile for whichever shell script you prefer using) can make your life easier as you navigate around the Terminal. Some potential ones might be:
@@ -35,4 +33,6 @@ alias biowulf="ssh USER" #replace USER with your logon information - if you have
 
 ## Directory Permissions
 
-Especially if you're working with collaborators on Biowulf, you may need to ensure that directory permissions allow others to write to them. This also can be an issue with the `.git` directory. If you own the file, you can change permissions using the `chmod` command.
+If you're collaborating with others in a directory on Biowulf, you may need to change the permissions to allow others to write to it. This can also be an issue with the `.git` directory, if multiple people are making commits in one directory. If you are the owner of the file/directory, you can change permissions using the `chmod` command.
+
+[ssh-add]:https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
