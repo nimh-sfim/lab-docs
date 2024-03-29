@@ -65,7 +65,7 @@ There are additional issues for getting GitHub to work smoothly with VS Code, pa
 
 ## Suggested Extensions
 
-The following are free extensions from the VSCode Marketplace that you may want/need to make your life easier while using VSCode. 
+The following are free extensions from the VSCode Marketplace that you may want/need to make your life easier while using VSCode.
 
 - Anaconda Extension Pack (bundles Python & YAML extensions)
 - Python (bundles Pylance & Jupyter): Lots of useful python stuff including linting and other error checks, debugging tools, etc. This is needed to be able to run Python code in VS Code
