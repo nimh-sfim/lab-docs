@@ -2,6 +2,14 @@
 
 Here, we have compiled a list of links to learn more about things that will be useful for the work we do in SFIM. This list is evolving, and if you have suggestions for useful resources, please create a Pull Request and we will work on getting it added.
 
+| [Programming](#programming) | [MRI](#mri)      | [Neuroscience](#neuroscience)   |
+| :-----------: | :--------: | :--------------: |
+| [General](#general)   | [Blogs](#blogs-and-websites)  | [Neuroanatomy](#neuroanatomy) |
+| [Git](#git)       | [Online courses](#online-courseslectures) | [Neurovascular Coupling](#neurovascular-coupling) |
+| [Python](#python) | [Books](#books) | [General Cognitive Neuroscience](#general-cognitive-neuroscience) |
+| [MATLAB](#matlab) | | |
+| [Statistics](#statistics) | | |
+
 ## Programming
 
 ### General
@@ -79,7 +87,11 @@ If you're looking to make the switch from MATLAB to Python, below are some cheat
 
 ## General Cognitive Neuroscience
 
-We're still collecting these resources. Check back later, or submit a pull request to suggest one!
+- [Fundamental Neuroscience for Neuroimaging][coursera_neurosci]
+- [Innovators in Cognitive Neuroscience lecture series][innovators]
+- [Neuromatch Academy Computational Neuroscience][neuromatch]
+- [MIT OpenCourseWare Brain and Cognitive Sciences Classes][mit_brain]
+- Cognitive Neuroscience: The Biology of the Mind - 5e (Gazzaniga, Ivry and Mangun) - textbook geared for undergrads, but a good basis.
 
 ### LBC-specific neuroscience
 
@@ -98,8 +110,7 @@ We're still collecting these resources. Check back later, or submit a pull reque
 
 - [NIH fMRI Summer Course Videos & Slides][fmri_nih_summer]: Every summer, the NIH runs a series of lectures on fMRI. 2018 is a series of survey lectures and the 2019 lectures address more special topics and big picture questions.
 - [AFNI Boot Camp on YouTube][afni_camp_yt]: AFNI Bootcamp is run by the fabulous AFNI team at the NIH. If you haven't been in person, the videos are all on Youtube, and the [handouts][afni_handouts] are available online.
-- [UCSD Fundamentals of Functional Neuroimaging 2020 by Tom Liu]
-[Tom_Liu_MRI]
+- [UCSD Fundamentals of Functional Neuroimaging 2020 by Tom Liu][Tom_Liu_MRI]
 - Principles of fMRI by Martin Lindquist
   - [Part One - Coursera][p_fmri_1]
   - [Part Two - Coursera][p_fmri_2]
@@ -171,3 +182,7 @@ Some of these books are available online and others we might have hard copies. A
 [intro_mlm]:https://www.learn-mlms.com/
 [learn_stats_R]:https://learningstatisticswithr.com/
 [ica_web]: https://towardsdatascience.com/independent-component-analysis-ica-a3eba0ccec35
+[innovators]: https://innovatorsincogneuro.github.io/about-us.html
+[coursera_neurosci]:https://www.coursera.org/learn/neuroscience-neuroimaging
+[neuromatch]: https://compneuro.neuromatch.io/tutorials/intro.html
+[mit_brain]:https://ocw.mit.edu/search/?d=Brain%20and%20Cognitive%20Sciences&s=department_course_numbers.sort_coursenum
