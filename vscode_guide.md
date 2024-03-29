@@ -22,6 +22,7 @@ Visual Studio Code is an Integrated Development Environment (IDE) that may suppo
 ## VS Code General Guides
 
 - [VS Code's Intro Docs & Videos][vscode_docs] are good general resources
+- [VS Code and Git][vscode_git] for extensive details on how to use VSCode to interface with Git and GitHub
 - [VS Code keyboard short cuts][keyboard_shortcuts]
 - [VS Code key bindings for other editors][keybindings] for those who cannot live without your vi or emacs short cuts
 
@@ -96,3 +97,4 @@ The following are free extensions from the VSCode Marketplace that you may want/
 [vscode_docs]: <https://code.visualstudio.com/docs>
 [keyboard_shortcuts]: <https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference>
 [keybindings]: <https://code.visualstudio.com/docs/getstarted/keybindings>
+[vscode_git]: https://code.visualstudio.com/docs/sourcecontrol/overview
