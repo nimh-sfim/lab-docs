@@ -55,12 +55,9 @@ One thing you may need/wish to do is to clone necessary GitHub repos to your loc
 
 ### Set up your laptop profiles
 
-Another (subjective) tip: you can add aliases and settings to your .bashrc and .vimrc profiles to make your life easier. Take a look at the samples in the `profiles` directory in this repo. Also consider setting up your Git config file so that Git will correctly attribute the changes you make to you.
+Another (subjective) tip: you can add aliases and settings to your .bashrc and .vimrc profiles to make your life easier. Take a look at the samples in the `profiles` directory in this repo.
 
-``` bash
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-```
+You can also consider setting up your Git config file so that Git will correctly attribute the changes you make to you. To help you with this process, we suggest running the `set_git_config.sh` script in the `profiles` directory in this repo. This will interactively set up your username/email, set your default branch as `main`, create a global `.gitignore` and add some helpful aliases.
 
 ### Scripts to automount Biowulf/Helix
 
