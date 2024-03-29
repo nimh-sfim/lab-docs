@@ -4,6 +4,10 @@ As a part of our work, we have to write a lot of code. It makes everyone's life 
 
 Writing good code is not specific to any single language. If you already have preferences on what coding language you want to work in, awesome! If you don't, we tend to like Python - it's open source and has a wide ecosystem of tools for data science, machine learning and neuroimaging. What language you ultimately decide on will depend on what you need to do and your collaborators. Check out our [Education page][education] for plenty of resources on programming in general.
 
+- [Style](#style)
+- [Approach](#approach)
+- [Code Review](#code-review)
+
 ## Style
 
 It makes life easier to review code across people if we follow a consistent coding style. Please use the following resources for Python style guides:
