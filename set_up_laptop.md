@@ -2,6 +2,12 @@
 
 If you're new to SFIM, welcome! On this page, we've got a list of tips and tricks to get your laptop all set up so you can do your work.
 
+- [Download Software](#download-software)
+- [Request Admin Rights](#request-admin-rights-for-your-laptop)
+- [Set up SSH Keys](#set-up-ssh-keys)
+- [Set up Python](#set-up-python)
+- [Other potentially useful suggestions](#set-up-and-download-other-useful-things)
+
 ## Download Software
 
 Due to changing IT rules at the NIH, it is becoming increasingly unlikely that you will have admin access to your laptop (at least when you first get here). Because of that, installing software becomes a little bit more complicated.
