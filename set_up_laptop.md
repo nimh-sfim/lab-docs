@@ -63,6 +63,7 @@ A few notes to make your Mac laptop run smoothly with NIH accounts:
 
 - Do **not** add your NIH account to System Preferences-> Internet Accounts. We use Outlook for mail and adding the account there will just do things like have everything downloaded in parallel to Mac Mail.
 - Log into an iCloud account - an iCloud account is necessary to download even free software from the App Store and may be necessary for some OS updates. If you don't want to have a personal account on a work laptop, you can consider making a new iCloud account specifically for your work laptop. Unless you want to pay for storage, you should turn off most sharing except for the Notes app.
+- You may run into an issue where your Keychain gets locked automatically if you have been inactive on your laptop, meaning you get asked for your password frequently. If this happens, you can set a length of time before Keychain asks for your password. See [this link][keychain] for instructions - if you uncheck both boxes, it should stop asking for your password so often.
 
 ### Clone GitHub repos
 
@@ -109,3 +110,4 @@ Additional information from the NIH HPC team about creating automounts is [here]
 [role_based_training]: https://irtsectraining.nih.gov/
 [conda_install]: https://docs.anaconda.com/free/miniconda/miniconda-install/
 [mamba_install]: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+[keychain]: https://support.apple.com/guide/keychain-access/mac-keychain-password-kyca1242/mac
