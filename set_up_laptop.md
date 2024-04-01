@@ -22,7 +22,7 @@ Not everyone will be granted admin access, so check with others in the lab regar
 
 ## Set up SSH Keys
 
-Creating SSH keys allows you to easily authenticate to places that aren't your laptop (i.e. GitHub, Biowulf) without having to enter your username and password every time. For Github and various servers on biowulf, this is either necessary or makes life much easier. This works with a pair of SSH keys, one private, and one public. The private one is on the computer you are connecting from (i.e. your laptop). Keep this key private! SSH keys can be more secure than passworks, but if someone has access to your private key, they can log into any system where you've set up access through SSH keys.
+Creating SSH keys allows you to easily authenticate to places that aren't your laptop (i.e. GitHub, Biowulf) without having to enter your username and password every time. For Github and various servers on Biowulf, this is either necessary or makes life much easier. This works with a pair of SSH keys, one private, and one public. The private one is on the computer you are connecting from (i.e. your laptop). Keep this key private! SSH keys can be more secure than passwords, but if someone has access to your private key, they can log into any system where you've set up access through SSH keys.
 
 You will likely need to create pairs of SSH keys: one for accessing Biowulf and GitHub from your laptop (private key on your laptop), and one for accessing GitHub from Biowulf (private key on Biowulf). Both of these can be set up the same way. We recommend following GitHub's instructions [here][ssh-keys] to create SSH keys.
 
@@ -53,9 +53,16 @@ You can also use SSH keys to make your life easier and not have to enter your Bi
 
 A lot of the work we do is in Python, so it will behoove you to have an updated distribution of Python installed on your laptop and on Biowulf. Please see our detailed instructions on [installing Python on Biowulf via miniconda][python_biowulf] for how to do this without making HPC mad at us. Please ensure that you follow the instructions on acquiring an Anaconda Professional Token from CIT if you install Python through [miniconda][conda_install] (the same token can be used for your local laptop and Biowulf). You also can consider installing Python via [micromamba][mamba_install].
 
-A big advantage of using conda or mamba is you can set up multiple python environments. This is particularly useful if one python program installs a lot of other python packages with specific version numbers that mess up other things you are doing with python. We recommend having a general environment for most things you do (i.e. including `numpy, scipy, matplotlib, pandas, and jupyter`), and separate environments for anything that might install a wider range of distinct packages. the [miniconda][conda_install] and [micromamba][mamba_install] installation instructions include information on creating and naming multiple environments. 
+A big advantage of using conda or mamba is you can set up multiple python environments. This is particularly useful if one python program installs a lot of other python packages with specific version numbers that mess up other things you are doing with python. We recommend having a general environment for most things you do (i.e. including `numpy, scipy, matplotlib, pandas, and jupyter`), and separate environments for anything that might install a wider range of distinct packages. the [miniconda][conda_install] and [micromamba][mamba_install] installation instructions include information on creating and naming multiple environments.
 
 ## Set up and download other useful things
+
+### Mac System Settings
+
+A few notes to make your Mac laptop run smoothly with NIH accounts:
+
+- Do **not** add your NIH account to System Preferences-> Internet Accounts. We use Outlook for mail and adding the account there will just do things like have everything downloaded in parallel to Mac Mail.
+- Log into an iCloud account - an iCloud account is necessary to download even free software from the App Store and may be necessary for some OS updates. If you don't want to have a personal account on a work laptop, you can consider making a new iCloud account specifically for your work laptop. Unless you want to pay for storage, you should turn off most sharing except for the Notes app.
 
 ### Clone GitHub repos
 
