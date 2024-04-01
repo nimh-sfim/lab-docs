@@ -5,6 +5,9 @@ This collates resources for using Biowulf and HPC. Much of this is useful for se
 - [Automount Helix Drives](#automount-helix-drives)
 - [Useful Modules](#useful-modules)
 - [Biowulf and python](#biowulf-and-python)
+- [SSH Keys for GitHub on Biowulf](SSH-Keys-for-GitHub-on-Biowulf)
+- [Using git on biowulf](Using-git-on-biowulf)
+- [Directory Permissions](Directory-Permissions)
 - [Additional HPC resources](#additional-hpc-resources)
 
 ## Automount Helix Drives

@@ -6,6 +6,7 @@ If you're new to SFIM, welcome! On this page, we've got a list of tips and trick
 - [Request Admin Rights](#request-admin-rights-for-your-laptop)
 - [Set up SSH Keys](#set-up-ssh-keys)
 - [Set up Python](#set-up-python)
+- [Aliases](aliases)
 - [Other potentially useful suggestions](#set-up-and-download-other-useful-things)
 
 ## Download Software

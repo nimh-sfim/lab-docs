@@ -26,7 +26,7 @@ Here, we provide guides for how we recommend doing things in the lab. If you pre
 
 ## Additional resources
 
-- [Helpful Tips][tips]
+- [Miscellaneous Tips][tips]
 
 ### Under Construction
 
