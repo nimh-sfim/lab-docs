@@ -8,7 +8,7 @@ Here, we have compiled a list of links to learn more about things that will be u
 | [Git](#git)       | [Online courses](#online-courseslectures) | [Neurovascular Coupling](#neurovascular-coupling) |
 | [Python](#python) | [Books](#books) | [General Cognitive Neuroscience](#general-cognitive-neuroscience) |
 | [MATLAB](#matlab) | | |
-| [Statistics](#statistics) | | |
+| [Statistics and Data Science](#statistics-and-data-science) | | |
 
 ## Programming
 
@@ -66,9 +66,14 @@ If you're looking to make the switch from MATLAB to Python, below are some cheat
 - [NumPy guide for MATLAB users][numpy_for_matlab]
 - [Numpy vs. MATLAB cheat sheet][numpy_matlab_cheat_sheet]
 
-### Statistics
+### Statistics and Data Science
 
 - [Learn Statistics with R][learn_stats_R]
+- [Statistical Thinking for the 21 Century, Russ Poldrack][poldrack]
+- [Introduction to Data Science in Python, Tal Yarkoni][yarkoni]
+- [UCSD COGS 108, Voytek and Donoghue][voytek]
+- [Coursera: Python for Data Science and AI, IBM][ibm]
+- [Coursera: R-based Data Science Specialization, John Hopkins][jhu]
 - [Coursera: Introduction to PCA][intro_PCA]
 - [Introduction to Multi-Level Modeling][intro_mlm]
 - [A quick intro to ICA][ica_web]
@@ -186,3 +191,8 @@ Some of these books are available online and others we might have hard copies. A
 [coursera_neurosci]:https://www.coursera.org/learn/neuroscience-neuroimaging
 [neuromatch]: https://compneuro.neuromatch.io/tutorials/intro.html
 [mit_brain]:https://ocw.mit.edu/search/?d=Brain%20and%20Cognitive%20Sciences&s=department_course_numbers.sort_coursenum
+[poldrack]: <https://statsthinking21.org>
+[yarkoni]: <https://github.com/tyarkoni/SSI2019>
+[voytek]: <https://github.com/COGS108?utm_content=buffera3cee&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer>
+[ibm]: <https://www.coursera.org/learn/python-for-applied-data-science-ai>
+[jhu]: <https://www.coursera.org/specializations/jhu-data-science>
