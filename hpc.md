@@ -1,6 +1,6 @@
 # Biowulf and High-Performance Computing at NIH
 
-This collates resources for using Biowulf and HPC
+This collates resources for using Biowulf and HPC. Much of this is useful for setting up your account on Biowulf to benefit our typical workflows.
 
 - [Automount Helix Drives](#automount-helix-drives)
 - [Useful Modules](#useful-modules)
@@ -61,9 +61,8 @@ It's a bit messy, but some additional common programs are in /data/NIMH_SFIM/Com
 ## Biowulf and Python
 
 Sometimes Biowulf and Python can have issues.
-HPC has a fairly comprehensive guide [here][biowulf_python] that you can read.
-One fairly common issue is the use of Python environments and Biowulf, particularly conda.
-There is a naming conflict ("dbus") that can be introduced, and may cause NoMachine to fail intermittently.
+HPC has a fairly comprehensive guide [here][biowulf_python] that you can read. We have additional instructions for [setting up conda on biowulf][biowulf_conda].
+One fairly common issue is the use of Python environments and Biowulf, particularly conda. There is a naming conflict ("dbus") that can be introduced, and may cause NoMachine to fail intermittently.
 The solution is to first try to remove the lines inserted by conda into your `.bashrc`, so that conda does not load by default.
 In the case that this does not work, try removing `dbus` with
 
@@ -73,6 +72,40 @@ conda uninstall dbus
 
 which will remove the `dbus` package.
 This can cause issues if you have packages which depend on it.
+
+## SSH Keys for GitHub on Biowulf
+
+You will want an SSH key on biowulf to connect with github. You can follow the same instructions used for [setting up your laptop][set_up_laptop].
+
+If you are using Git on Biowulf, you might get some weird fatal errors when you start a new session. If this happens, try to restart the ssh-agent and re-add the key (instructions [here][ssh-add] from GitHub)
+
+## Using git on biowulf
+
+Once you have an ssh key pair between Biowulf and GitHub add the following to `~/.ssh/config` with your username. This might be particularly useful for accessing GitHub through VSCode.
+
+    ```SSH Config
+    Host github.com
+      User git
+      ProxyCommand /usr/bin/ssh -o ForwardAgent=yes username@biowulf.nih.gov nc -w 120ms %h %p
+    ```
+
+When you clone a repository use `ssh` not `https`.
+
+Every cloned github repo has a named owner. That means, if multiple people are working on the same code in the same biowulf directory, it will be impossible to see who made which edit. Having multiple people work on code in one location can be convenient if one person is making most of the edits with some paired coding support from someone else, but it will cause problems if a repo has more than one active contributor. It is better for each person to have their own clone of the repo where they edit and commit changes to github while specifying one location for where code is run from.
+
+If two people are coding in the same directory, make sure to set `chmod` permissions for the code, including the `.git` directory so that they both have write access.
+
+## Directory Permissions
+
+If you're collaborating with others in a directory on Biowulf, you may need to change the permissions to allow others to write or read content. On biowful, each file or directory is part of a group. That group should be `SFIM` or the name of the `/data/[group]` directory. New files sometimes have the group as an individual's user ID, which means others won't be able to see it. `chgrp -R SFIM directory` will change the group for `directory` and all of the files inside. You can then adjust group access with `chmod -R 2770 directory` The first `2` means that new files within a directory will (theoretically) inherit the same group name and permissions. The next 3 digits define file owner, group, and world permissions. 7 means a file is read/write/executable, 4 is read only, and 0 is no permissions. Here are some useful options
+
+```bash
+chmod -R 2770 directory # Owner and group can read/write/execute
+chmod -R 2700 directory # Only owner can read/write/execute
+chmod -R 2740 directory # Owner can read/write/execute and group members can read, but not alter files
+```
+
+Unless you are sharing files that do not contain personnally identifiable information (PII) with an out-group Biowulf user, **never** make files world-readable on Biowulf. If you have an ongoing collaboration with someone outside of SFIM, request a new group where you can define who has access. For example, `SFIMLBC` has been used for some collaborations between SFIM and other LBC lab members.
 
 ## Additional HPC Resources
 
@@ -86,6 +119,8 @@ Check them out [here](https://github.com/dmoracze/HPC_helper_tools). Several key
 [biowulf_tutorials]: <https://hpc.nih.gov/training/intro_biowulf/>
 [biowulf_guide]: <https://hpc.nih.gov/docs/userguide.html>
 [biowulf_conda]: biowulf_conda.md
+[set_up_laptop]: set_up_laptop.md
 [helix_mount]: <https://hpc.nih.gov/docs/helixdrive.html>
 [module_system]: <https://hpc.nih.gov/apps/modules.html>
 [biowulf_python]: <https://hpc.nih.gov/apps/python.html>
+[ssh-add]:https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent

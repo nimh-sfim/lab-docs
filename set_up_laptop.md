@@ -55,6 +55,21 @@ A lot of the work we do is in Python, so it will behoove you to have an updated 
 
 A big advantage of using conda or mamba is you can set up multiple python environments. This is particularly useful if one python program installs a lot of other python packages with specific version numbers that mess up other things you are doing with python. We recommend having a general environment for most things you do (i.e. including `numpy, scipy, matplotlib, pandas, and jupyter`), and separate environments for anything that might install a wider range of distinct packages. the [miniconda][conda_install] and [micromamba][mamba_install] installation instructions include information on creating and naming multiple environments.
 
+## Aliases
+
+Adding aliases to your `.bashrc` (or the profile for whichever shell script you prefer using) can make your life easier as you navigate around the Terminal. The first three might also be useful to add to your `.profile` on Biowulf. Some potential ones might be:
+
+```bash
+alias ls="ls -G" # don't list group ownership
+alias ll="ls -lG" # list out all information about all files, including file ownership 
+alias ltr="ls -lGtr" # sort by time, newest first
+#The following requires having your SSH key set up. Otherwise this requires also including your username@biowulf.
+alias biowulf="ssh -XY biowulf.nih.gov"
+# If you tend to mess up spellings, the following two aliases will be very useful:
+alias biowful="ssh -XY biowulf.nih.gov"
+alias biowufl="ssh -XY biowulf.nih.gov"
+```
+
 ## Set up and download other useful things
 
 ### Mac System Settings
@@ -63,7 +78,7 @@ A few notes to make your Mac laptop run smoothly with NIH accounts:
 
 - Do **not** add your NIH account to System Preferences-> Internet Accounts. We use Outlook for mail and adding the account there will just do things like have everything downloaded in parallel to Mac Mail.
 - Log into an iCloud account - an iCloud account is necessary to download even free software from the App Store and may be necessary for some OS updates. If you don't want to have a personal account on a work laptop, you can consider making a new iCloud account specifically for your work laptop. Unless you want to pay for storage, you should turn off most sharing except for the Notes app.
-- You may run into an issue where your Keychain gets locked automatically if you have been inactive on your laptop, meaning you get asked for your password frequently. If this happens, you can set a length of time before Keychain asks for your password. See [this link][keychain] for instructions - if you uncheck both boxes, it should stop asking for your password so often.
+- There used to be an issue where the Mac Keychain got locked automatically if you have been inactive on your laptop, resulting in needing to frequently re-enter passwords. In case this starts happening again, it was solved by changing the length of time before Keychain asks for your password. See [this link][keychain] for instructions - if you uncheck both boxes, it should stop asking for your password so often.
 
 ### Clone GitHub repos
 
