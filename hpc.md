@@ -120,7 +120,7 @@ Host github.com
   ProxyCommand /usr/bin/ssh -o ForwardAgent=yes $username@biowulf.nih.gov nc -w 120ms %h %p
 ```
 
-When you clone a repository use `ssh` not `https`.
+When you clone a repository use `https` not `ssh`.
 
 Every cloned github repo has a named owner. That means, if multiple people are working on the same code in the same biowulf directory, it will be impossible to see who made which edit. Having multiple people work on code in one location can be convenient if one person is making most of the edits with some paired coding support from someone else, but it will cause problems if a repo has more than one active contributor. It is better for each person to have their own clone of the repo where they edit and commit changes to github while specifying one location for where code is run from.
 
