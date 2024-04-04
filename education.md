@@ -38,7 +38,7 @@ We use Git and GitHub for version control to manage our work and collaborate acr
 - [The Turing Way][turing_way]: "Version Control" (also includes version control for
 data).
 - [Software Carpentry][software_carpentry_git]: "Version Control With Git."
-- [Dang it, Git][dangitgit]: a quick and easy resource for how to get yoruself out of trouble with Git
+- [Dang it, Git][dangitgit]: a quick and easy resource for how to get yourself out of trouble with Git
 
 ### Python
 
