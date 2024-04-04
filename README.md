@@ -17,7 +17,7 @@ In our [Education][education] page, we have compiled a list of resources to lear
 Here, we provide guides for how we recommend doing things in the lab. If you prefer to do things differently and think that your workflow might work well in the lab, let us know and we can integrate the information here.
 
 - How to: [Set up your laptop][set_up_laptop]
-- How to: [Set up your account on biowulf][hpc]
+- How to: [Set up your account on Biowulf][hpc]
 - How to: [Start a study][start_a_study]
 - How to: [Set up and use a GitHub repo][use_github]
 - How to: [Set up and use VSCode][vscode]
