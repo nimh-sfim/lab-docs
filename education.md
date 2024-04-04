@@ -32,12 +32,13 @@ Unix will be how you navigate the Terminal and access data on Biowulf. If you ar
 
 We use Git and GitHub for version control to manage our work and collaborate across the lab. Below are a few helpful tutorials on the basics of Git, although please also see the [setting up Git] page in the How To's section of lab-docs for a step-by-step tutorial on how to set up a Git repo for a new SFIM project.  
 
+- [xkcd](https://xkcd.com/1597/): A good reminder that git doesn't actually make sense to most people. If it doesn't make sense to you, don't feel bad.
 - [Git Primer][git_primer]: Brief primer that may help orient a new user terminology
 - [Pro Git][pro_git]: chapters 1 through 3.
 - [The Turing Way][turing_way]: "Version Control" (also includes version control for
 data).
 - [Software Carpentry][software_carpentry_git]: "Version Control With Git."
-- [Dang it, Git][dangitgit]: a quick and easy resource for how to get yoruself out of trouble with Git
+- [Dang it, Git][dangitgit]: a quick and easy resource for how to get yourself out of trouble with Git
 
 ### Python
 
