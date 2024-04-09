@@ -1,6 +1,6 @@
 # Biowulf and High-Performance Computing at NIH
 
-This collates resources for using Biowulf and HPC. Much of this is useful for setting up your account on Biowulf to benefit our typical workflows.
+In SFIM, we use the NIH Biowulf cluster to do most of our data analysis. This is a GNU/Linux parallel processing system designed and built at the NIH that permits running large number of simultaneous jobs with high requirements of memory and processing power. This document collates resources for using Biowulf and HPC. Much of this is useful for setting up your account on Biowulf to benefit our typical workflows.
 
 - Setting up Biowulf
   - [Installing Python](#install-python-on-biowulf)
