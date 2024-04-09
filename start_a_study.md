@@ -2,7 +2,7 @@
 
 Here, we give a broad overview on how to start a study.
 
-1. Identify or request space on Biowulf to store data and code
+1. *Identify or request space on Biowulf to store data and code*
 
     Data and code should be stored on Biowulf, rather than your local laptop. In consulting with staff scientists or scientific programmers, if there is not already logical location to store and process a study's data, put in a request to the HPC team for a new directory. Make sure that it's name begins with "SFIM_" and ends with something descriptive. Ensure that Staff Scientists and the Scientific Programmer, in addition to any other SFIM collaborators who are working on the project have access to this directory.
 
@@ -46,7 +46,7 @@ Here, we give a broad overview on how to start a study.
 
     For studies with new and existing data, [The art and science of using quality control to understand and improve fMRI data][qc_article] is a good review article that provides an overview of things to consider when designing a study and processing data. The appendix includes a checklist of questions and topics to answer when planning a study.
 
-4. Get your data and code ready for sharing
+1. *Get your data and code ready for sharing*
 
     Once you've finished your analyses and written up a manuscript, get ready to share your data. Check out our Data and Code policy and the [How to: Get your data and code ready for publication][share_data_code] for details.
 
