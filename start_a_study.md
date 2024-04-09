@@ -2,9 +2,9 @@
 
 Here, we give a broad overview on how to start a study.
 
-1. *Request space on Biowulf to store data and code*
+1. Identify or request space on Biowulf to store data and code
 
-    Data and code should be stored on Biowulf, rather than your local laptop. To keep things organized, put in a request to the HPC team for a new directory. Make sure that it's name begins with "SFIM_" and ends with something descriptive. Ensure that Staff Scientists and the Scientific Programmer, in addition to any other SFIM collaborators who are working on the project have access to this directory.
+    Data and code should be stored on Biowulf, rather than your local laptop. In consulting with staff scientists or scientific programmers, if there is not already logical location to store and process a study's data, put in a request to the HPC team for a new directory. Make sure that it's name begins with "SFIM_" and ends with something descriptive. Ensure that Staff Scientists and the Scientific Programmer, in addition to any other SFIM collaborators who are working on the project have access to this directory.
 
 1. *Set up your codebase*
 
@@ -40,42 +40,17 @@ Here, we give a broad overview on how to start a study.
 
     This can look different depending on whether you're working on an acquisition or analysis-based study.
 
-    If you're working on an acquisition based study, you will want to collaborate with the FMRIF Core to develop sequences.
+    If you're working on an acquisition based study, you will want to collaborate with SFIM staff scientists and the FMRIF Core to optimize existing or develop new sequences. Especially during early stages, make sure you look at your data as you collect it. The AFNI team has worked on some cool tools for [quality control][afni_qc] to help you explore your data and make sure everything is working as you expect it to.
 
-    As you're acquiring data, you should make sure to record the following information:
+    If you're working on an analysis-based study using data we already have on Biowulf (or if it's a dataset curated by DSST), you can just get started on your analyses.
 
-    - Date and time of scan
-    - Scan number
-    - Age and gender of subject
-    - Phantom, if applicable
-    - One entry for each applicable scan (even if scan failed). Make sure to note if the scan crashes or was manually stopped, any artifacts were seen, or if patient said they moved, fell asleep, had trouble with task, etc.
-    - After the scan, make sure to add in successful scans nubers' as they are listed for DICOM and Realtime on the FMRIF website
+    For studies with new and existing data, [The art and science of using quality control to understand and improve fMRI data][qc_article] is a good review article that provides an overview of things to consider when designing a study and processing data. The appendix includes a checklist of questions and topics to answer when planning a study.
 
-    Do **NOT** include subject's name or DOB, or add the RIS sticker (or any other PII) if you are scanning and saving the information.
-
-    If you are piloting or working with the first few subjects in a new study, be sure to take note of scan parameters (TR, FOV, FatSat?, # Measurements, Y/N Physio, etc) and details on the task paradigm
-
-     If you're working on an analysis-based study using data we already have on Biowulf (or if it's a dataset curated by DSST), you can just get started on your analyses.
-
-1. *Analyze your data*
-
-    This will be project specific, but we have a few general recommendations:
-
-    - Especially during early stages, make sure you look at your data as you collect it. The AFNI team has worked on some cool tools for [quality control][afni_qc] to help you explore your data and make sure everything is working as you expect it to.
-    - If you are new to analyzing fMRI data, we have tutorials for analyzing [task][task_data_tutorial] and [rest][rest_data_tutorial] data in our internal Teams channel.
-    - The wonderful AFNI group has also created a number of [tutorials][afni_tutorials] for analyzing data. We also have created some resources on the [How to: Get started with AFNI][get_started_afni] page.
-
-    If you need additional resources, check out our [Education][education] page.
-
-1. *Get your data and code ready for sharing*
+4. Get your data and code ready for sharing
 
     Once you've finished your analyses and written up a manuscript, get ready to share your data. Check out our Data and Code policy and the [How to: Get your data and code ready for publication][share_data_code] for details.
 
 [use_github]:<github.md>
 [afni_qc]: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/apqc_html/main_toc.html
-[task_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_01_TaskData.docx?d=w3f37284d446246989b3dcd06ce3d4c6f&csf=1&web=1&e=1HmtjE
-[rest_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_02_RestData.docx?d=w3de2a412cf46460cb40d5d0c23a46dd0&csf=1&web=1&e=9dVUdO
-[afni_tutorials]: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/main_toc.html#
-[get_started_afni]:<get_started_afni.md>
-[education]: <education.md>
+[qc_article]: https://doi.org/10.3389/fnins.2023.1100544
 [share_data_code]:<ready_for_pub.md>

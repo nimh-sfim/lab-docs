@@ -23,7 +23,7 @@ Not everyone will be granted admin access, so check with others in the lab regar
 
 ## Set up SSH Keys
 
-Creating SSH keys allows you to easily authenticate to places that aren't your laptop (i.e. GitHub, Biowulf) without having to enter your username and password every time. For Github and various servers on Biowulf, this is either necessary or makes life much easier. This works with a pair of SSH keys, one private, and one public. The private one is on the computer you are connecting from (i.e. your laptop). Keep this key private! SSH keys can be more secure than passwords, but if someone has access to your private key, they can log into any system where you've set up access through SSH keys.
+Creating SSH keys allows you to easily authenticate to places that aren't your laptop (i.e. GitHub, Biowulf) without having to enter your username and password every time. For Github and various servers on Biowulf, this is either necessary or makes life much easier. This works with a pair of SSH keys, one private, and one public. The private one is on the computer you are connecting from (i.e. your laptop). **Keep this key private!** SSH keys can be more secure than passwords, but if someone has access to your private key, they can log into any system where you've set up access through SSH keys.
 
 You will likely need to create pairs of SSH keys: one for accessing Biowulf and GitHub from your laptop (private key on your laptop), and one for accessing GitHub from Biowulf (private key on Biowulf). Both of these can be set up the same way. We recommend following GitHub's instructions [here][ssh-keys] to create SSH keys.
 
