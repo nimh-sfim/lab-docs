@@ -46,7 +46,7 @@ data).
   - [Python for Everybody (Free book for above class)][p4e]
 - [Software Carpentry: Programming with Python][swc_python]
 - [The Hitchhiker's Guide to Python][hitchhikers_guide_python]
-- [Gael Varoquaux's Programming Guides][gv_python] (Varying difficulties)
+- [Gael Varoquaux's Programming Guides][gv_python] (Tutorials for Python of varying difficulties)
 - [SciPy lecture notes][sp_lecture] (Varying difficulties)
 - [Open Tech School iPython][ots_ipyth] (Beginner, notebooks)
 - [Python String Format by pyformat][pystr] (Beginner, String Formatting)
@@ -111,11 +111,13 @@ If you're looking to make the switch from MATLAB to Python, below are some cheat
 - [layerfmri][layerfmri]: Renzo Huber's blog on how to do layer fMRI
 - [Spin that resonates][spin_resonates]: Q&A blog on MRI physics
 - [practiCal fMRI][practical_fmri]: blog posts on understanding MRI acquisition
+- [Task][task_data_tutorial] and [Rest][rest_data_tutorial] tutorials: If you are new to fMRI processing, we have tutorials for analyzing task and rest data in AFNI and Python on our internal Teams channel.
 
 ### Online Courses/Lectures
 
 - [NIH fMRI Summer Course Videos & Slides][fmri_nih_summer]: Every summer, the NIH runs a series of lectures on fMRI. 2018 is a series of survey lectures and the 2019 lectures address more special topics and big picture questions.
 - [AFNI Boot Camp on YouTube][afni_camp_yt]: AFNI Bootcamp is run by the fabulous AFNI team at the NIH. If you haven't been in person, the videos are all on Youtube, and the [handouts][afni_handouts] are available online.
+- [AFNI Tutorials][afni_tutorials]: In addition to the AFNI bootcamp videos, the AFNI team has put together a number of tutorials for analyzing data.
 - [UCSD Fundamentals of Functional Neuroimaging 2020 by Tom Liu][Tom_Liu_MRI]
 - Principles of fMRI by Martin Lindquist
   - [Part One - Coursera][p_fmri_1]
@@ -145,6 +147,7 @@ Some of these books are available online and others we might have hard copies. A
 [basics_mri]: http://www.cis.rit.edu/htbooks/mri/inside.htm
 [afni_camp_yt]: https://www.youtube.com/channel/UC40RiNZN7_dCuB6Lg7HJl1g
 [Tom_Liu_MRI]: https://www.youtube.com/playlist?list=PLn7hWU9T1O6FExueed50s9Wl98dzSLmXL
+[afni_tutorials]: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/main_toc.html#
 [p_fmri_1]: https://www.coursera.org/learn/functional-mri
 [p_fmri_2]: https://www.coursera.org/learn/functional-mri-2
 [neurohack]: https://neurohackademy.org/course_type/lectures/
@@ -197,3 +200,5 @@ Some of these books are available online and others we might have hard copies. A
 [voytek]: <https://github.com/COGS108?utm_content=buffera3cee&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer>
 [ibm]: <https://www.coursera.org/learn/python-for-applied-data-science-ai>
 [jhu]: <https://www.coursera.org/specializations/jhu-data-science>
+[task_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_01_TaskData.docx?d=w3f37284d446246989b3dcd06ce3d4c6f&csf=1&web=1&e=1HmtjE
+[rest_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_02_RestData.docx?d=w3de2a412cf46460cb40d5d0c23a46dd0&csf=1&web=1&e=9dVUdO

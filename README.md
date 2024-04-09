@@ -22,6 +22,7 @@ Here, we provide guides for how we recommend doing things in the lab. If you pre
 - How to: [Set up and use a GitHub repo][use_github]
 - How to: [Set up and use VSCode][vscode]
 - How to: [Write good code][write_good_code]
+- How to: [Get started with AFNI][start_afni]
 - How to: [Get your data and code ready for publication][share_data_code]
 
 ## Additional resources
@@ -47,3 +48,4 @@ To add content, please see our guide to [editing][editing].
 [hpc]: <hpc.md>
 [tips]: <tips.md>
 [editing]: <editing.md>
+[start_afni]: <get_started_afni.md>

@@ -63,7 +63,7 @@ Here, we give a broad overview on how to start a study.
 
     - Especially during early stages, make sure you look at your data as you collect it. The AFNI team has worked on some cool tools for [quality control][afni_qc] to help you explore your data and make sure everything is working as you expect it to.
     - If you are new to analyzing fMRI data, we have tutorials for analyzing [task][task_data_tutorial] and [rest][rest_data_tutorial] data in our internal Teams channel.
-    - The wonderful AFNI group has also created a number of [tutorials][afni_tutorials] for analyzing data.
+    - The wonderful AFNI group has also created a number of [tutorials][afni_tutorials] for analyzing data. We also have created some resources on the [How to: Get started with AFNI][get_started_afni] page.
 
     If you need additional resources, check out our [Education][education] page.
 
@@ -76,5 +76,6 @@ Here, we give a broad overview on how to start a study.
 [task_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_01_TaskData.docx?d=w3f37284d446246989b3dcd06ce3d4c6f&csf=1&web=1&e=1HmtjE
 [rest_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_02_RestData.docx?d=w3de2a412cf46460cb40d5d0c23a46dd0&csf=1&web=1&e=9dVUdO
 [afni_tutorials]: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/tutorials/main_toc.html#
+[get_started_afni]:<get_started_afni.md>
 [education]: <education.md>
 [share_data_code]:<ready_for_pub.md>
