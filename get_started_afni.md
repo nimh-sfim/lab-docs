@@ -1,6 +1,6 @@
 # How to: Get started with AFNI
 
-[AFNI][afni_main] (**A**nalysis of **F**unctional **N**euro**I**mages) is a software suite developed by the Statistical and Scientific Computing Core at the NIMH. It is freely available and can be run on MacOS and Linux systems. Given its flexibility, utility and the fact that the developers are right down the hall, many members of SFIM opt to use AFNI to analyze their fMRI data. This page has instructions on how to get AFNI set up on your laptop and some helpful tips and tricks for using it.
+[AFNI][afni_main] (**A**nalysis of **F**unctional **N**euro**I**mages) is a software suite developed by the Statistical and Scientific Computing Core at the NIMH. It is freely available and can be run on MacOS and Linux systems. Given its flexibility, utility, amazing color scheme, and the fact that the developers are right down the hall, many members of SFIM opt to use AFNI to analyze their fMRI data. This page has instructions on how to get AFNI set up on your laptop and some helpful tips and tricks for using it.
 
 ## Installing AFNI
 
@@ -23,7 +23,9 @@ For additional details, the AFNI team has put together a page with [instructions
 
 ## Learning to use AFNI
 
-At least once a year, the AFNI team puts on AFNI Bootcamp. This is a week long immersive course where you can learn all about how to use AFNI, and we recommend attending when it comes around. The AFNI team also put together [AFNI Academy on Youtube][afni_academy], which is basically an expanded version of the Bootcamp lectures, which you can watch to learn more about what you can do in AFNI at your own pace.
+AFNI is fast, powerful, and flexible. It was designed from the beginning ot [keep users close to their data]. The flip side of this is that there's always more to learn and it can be a bit overwhelmin to someone who is new to fMRI data analysis. It takes time and practice to learn, but because it can keep you close to your data, you'll have the opportunity to really understand what is happening during data processing.
+
+At least once a year, the AFNI team puts on AFNI Bootcamp. This is a week long immersive course where you can learn all about how to use AFNI, and we recommend attending when it comes around. The AFNI team also put together [AFNI Academy on Youtube][afni_academy], which is basically an expanded version of the Bootcamp lectures, which you can watch to learn more about what you can do in AFNI at your own pace. You will learn a lot if you attend the bootcamp knowing nothing about AFNI, but you'll learn more if you've been using AFNI for a few months, watch some of the videos, had have a rough idea of what's possible in AFNI.
 
 If you're a person who prefers to read tutorials rather than watch videos, you can also look at the [handouts from AFNI Bootcamp][bootcamp_handouts], follow the many [AFNI tutorials][afni_tutorials], or [check out publications][afni_codex] that have used AFNI for their analyses. If you have specific questions that aren't covered in any of the above resources, you can check out the [AFNI Message Board][AFNI_message_board] to see if anyone has had similar issues. If you want to stray from the offical AFNI material, you can also check out the [AFNI section in Andy's Brain Book][afni_abb].
 

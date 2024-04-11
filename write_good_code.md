@@ -4,9 +4,43 @@ As a part of our work, we have to write a lot of code. It makes everyone's life 
 
 Writing good code is not specific to any single language. If you already have preferences on what coding language you want to work in, awesome! If you don't, we tend to like Python - it's open source and has a wide ecosystem of tools for data science, machine learning and neuroimaging. What language you ultimately decide on will depend on what you need to do and your collaborators. Check out our [Education page][education] for plenty of resources on programming in general.
 
+- [Setting expectations](#setting-expectations)
+- [Code Review](#code-review)
 - [Style](#style)
 - [Approach](#approach)
-- [Code Review](#code-review)
+
+## Setting Expectations
+
+It is easier to write a guide like this than to actually follow everything here. Programming is a skill that benefits from continuing education. People who join SFIM start with a wide range of programming abilities, but there is always more to learn. If you start with us having never taken a formal programming course, don't compare yourself to someone who has been programming for years. You both have more to learn and can help each other. You will feel like spend too long on something that should be easy and you will make mistakes. Even the professional scientific programer who first wrote this guide [makes mistakes][QCProject]. If you practice and learn how to follow the guidance here, you'll still make mistakes, but it's more likely you or someone else will find and correct the mistakes.
+
+## Code Review
+
+A particularly useful way to learn how to write good code is to have others look at your code. Both for the reviewer and the coder, learning to ask and answer questions so that both people fully understand a section of code improves both of your skills. Even when a code review focuses on style and clarity - sometimes it helps to see how another person works through a problem in a new and creative way.
+
+In general, a high-quality code review in SFIM should be:
+
+1. Constructive: remember the human you are reviewing and treat them with professionalism and respect.
+   It is an opportunity for the reviewee to learn more, and for the
+   reviewer to learn to communicate their ideas clearly.
+1. Clear and Actionable: whomever you're reviewing should be able to act
+   independently with your review in hand.
+   Reviews should make it clear what an approvable implementation would
+   consist of if the reviewer requests changes.
+   Reviews should only contain actionable items, and avoid values
+   judgements such as "this is bad."
+1. Enforcing Consistency: Reviews should ensure that lab code has a
+   consistent style and logic, which enhances future legibility and
+   reproducibility across different projects and even by other labs.
+1. Skill Level Appropriate: There is a range of skillsets in the lab.
+   Please make sure that your review is actionable (See point 2) for
+   someone of the skillset you're reviewing.
+   You cannot expect a novice programmer to write highly complex
+   implementations without large amounts of guidance or perfect style.
+   If the code requires a large amount of review or interference,
+   consider co-programming.
+
+If you want to learn more about code review, check out the [MIT Reading on Code Review][mit_read] (the exercises use Java language but
+the general principles and tips are still useful).
 
 ## Style
 
@@ -15,7 +49,7 @@ It makes life easier to review code across people if we follow a consistent codi
 - [PEP8, the style guide for Python code][pep8]
 - [Numpy docstring standard][numpydoc]
 
-If you want to use a built-in style checker, you can use [flake8][flake8]. If you use VSCode as your IDE, there is an [extension][flake8_vscode] for flake8 that you can download.
+If you want to use a built-in style checker, you can use [flake8][flake8]. VSCode has an [extension][flake8_vscode] for flake8 that works like an automatic grammar checker for code style. Other coding environments have similar option.
 
 ## Approach
 
@@ -85,13 +119,13 @@ service such as [readthedocs][rtd].
 For shell scripts, tests are difficult to create and most likely will need
 to be done manually.
 However, you can devise a set of tests to be run manually to check that
-your shell script is working and write them down somewhere.
+your shell script is working and write them down somewhere. When it's less realistic to design formal tests for a shell script, you can use `echo` to output script commandes (i.e. `echo Program 1 running on subject 3` and you can automatically save these outputs using [> and >>][shell_redirect]
+
 In languages such as Python, MATLAB, and C++, there are various testing
 facilities available.
 When starting a project in one of those languages or environments, you
-should familiarize yourself with the testing procedure.
-Create tests which verify that your future code will match the
-specification.
+should familiarize yourself with the testing procedure. Create tests which verify that your future code will match the specification.`print` statements or other logging systems can also be used to track and save what was run.
+
 
 ### Implement the Solution
 
@@ -121,39 +155,14 @@ adjust your documentation and tests once you have a solution.
 It's much harder to forget to adjust your implementation when the software
 isn't behaving the way you want it to!
 
-## Code Review
 
-A particularly useful way to learn how to write good code is to have others look at your code and tell you how you can improve. This isn't just style - sometimes it helps to have another brain help work through a problem in a new and creative way.
-
-In general, a high-quality code review in SFIM should be:
-
-1. Constructive: remember the human you are reviewing and treat them withprofessionalism and respect.
-   It is an opportunity for the reviewee to learn more, and for the
-   reviewer to learn to communicate their ideas clearly.
-1. Clear and Actionable: whomever you're reviewing should be able to act
-   independently with your review in hand.
-   Reviews should make it clear what an approvable implementation would
-   consist of if the reviewer requests changes.
-   Reviews should only contain actionable items, and avoid values
-   judgements such as "this is bad."
-1. Enforcing Consistency: Reviews should ensure that lab code has a
-   consistent style and logic, which enhances future legibility and
-   reproducibility across different projects and even by other labs.
-1. Skill Level Appropriate: There is a range of skillsets in the lab.
-   Please make sure that your review is actionable (See point 2) for
-   someone of the skillset you're reviewing.
-   You cannot expect a novice programmer to write highly complex
-   implementations without large amounts of guidance or perfect style.
-   If the code requires a large amount of review or interference,
-   consider co-programming.
-
-If you want to learn more about code review, check out the [MIT Reading on Code Review][mit_read] (the exercises use Java language but
-the general principles and tips are still useful).
 
 [education]:education.md
+[QCproject]: <https://github.com/nimh-sfim/SFIM_Frontiers_Neuroimaging_QC_Project/blob/main/AnatomicalBugExplanation.md>
 [pep8]: <https://www.python.org/dev/peps/pep-0008/>
 [numpydoc]: <https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard>
 [flake8]: <https://flake8.pycqa.org/en/latest/>
 [flake8_vscode]: https://marketplace.visualstudio.com/items?itemName=ms-python.flake8
 [rtd]: https://readthedocs.org
 [mit_read]: <https://web.mit.edu/6.005/www/fa15/classes/04-code-review/>
+[shell_redirect]: <https://www.redhat.com/sysadmin/linux-shell-redirection-pipelining>
