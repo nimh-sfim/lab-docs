@@ -1,4 +1,5 @@
 # Profiles
+
 Profiles are files, often beginning with a `.` in which contain
 information for your terminal and terminal-based programs to
 access every time they run. This files are normally hidden when
@@ -7,6 +8,7 @@ you type `ls`.
 is a shell script which you can run to help configure your command-line
 environment.
 This directory contains a few helpful files:
+
 - `set_git_config.sh` will set some helpful git aliases and defaults.
   (HIGHLY RECOMMENDED).
   A git profile will set up consistent options and settings for your git
@@ -21,7 +23,9 @@ This directory contains a few helpful files:
   It will also create a `.bash_profile` if one does not exist.
 
 ## Git Profile
-The script will 
+
+The script will:
+
 1. Set up your username and email.
 1. Set your default branch as `main`.
 1. Add aliases.
@@ -29,6 +33,7 @@ The script will
    users.
 
 Aliases added:
+
 - `stat`, short for `status -s`.
 - `slog`, short for "short log," which will print a `git log` with only the
   short commit hash in red and subject in green.
