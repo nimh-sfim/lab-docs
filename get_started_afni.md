@@ -23,7 +23,7 @@ For additional details, the AFNI team has put together a page with [instructions
 
 ## Learning to use AFNI
 
-AFNI is fast, powerful, and flexible. It was designed from the beginning ot [keep users close to their data]. The flip side of this is that there's always more to learn and it can be a bit overwhelmin to someone who is new to fMRI data analysis. It takes time and practice to learn, but because it can keep you close to your data, you'll have the opportunity to really understand what is happening during data processing.
+AFNI is fast, powerful, and flexible. It was designed from the beginning to [keep users close to their data]. The flip side of this is that there's always more to learn and it can be a bit overwhelming to someone who is new to fMRI data analysis. It takes time and practice to learn, but because it can keep you close to your data, you'll have the opportunity to really understand what is happening during data processing.
 
 At least once a year, the AFNI team puts on AFNI Bootcamp. This is a week long immersive course where you can learn all about how to use AFNI, and we recommend attending when it comes around. The AFNI team also put together [AFNI Academy on Youtube][afni_academy], which is basically an expanded version of the Bootcamp lectures, which you can watch to learn more about what you can do in AFNI at your own pace. You will learn a lot if you attend the bootcamp knowing nothing about AFNI, but you'll learn more if you've been using AFNI for a few months, watch some of the videos, had have a rough idea of what's possible in AFNI.
 
