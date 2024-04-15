@@ -21,3 +21,11 @@ If you already have a csv file (comma separated values), you can create a tsv fi
    ```bash
    sed 's/,/\t/g' file.csv > file.tsv
    ```
+
+## Updating your password
+
+If you get an email telling you that you need to update your password, you should change your password through the black key icon in the top right of your screen. This will ensure that your laptop password and NIH credentials stay synced and you don't get locked out of your laptop.
+
+## PIV Cards and the internet browser
+
+You may run into an issue when trying to authenticate on various NIH sites using your PIV card if you try to check your certificate before your laptop realizes that you have your card inserted. You might find that you get all sorts of funky messages and it won't let you try to authenticate via PIV card again. If this happens, you can try to quit out of your browswer (i.e. `Command + Q` on a Mac) and then re-open your windows. This should allow you to try to find your PIV card again and all should be well. Alternatively, you can try to use an incognito or private browswer window.
