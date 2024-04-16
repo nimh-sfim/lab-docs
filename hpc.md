@@ -99,7 +99,9 @@ It's a bit messy, but some additional common programs are in `/data/NIMH_SFIM/Co
 
 ### Directory Permissions
 
-If you're collaborating with others in a directory on Biowulf, you may need to change the permissions to allow others to write or read content. On biowful, each file or directory is part of a group. That group should be `SFIM` or the name of the `/data/[group]` directory. New files sometimes have the group as an individual's user ID, which means others won't be able to see it. `chgrp -R SFIM directory` will change the group for `directory` and all of the files inside. You can then adjust group access with `chmod -R 2770 directory` The first `2` means that new files within a directory will (theoretically) inherit the same group name and permissions. The next 3 digits define file owner, group, and world permissions. 7 means a file is read/write/executable, 4 is read only, and 0 is no permissions. Here are some useful options
+If you're collaborating with others in a directory on Biowulf, you may need to change the permissions to allow others to write or read content. On Biowulf, each file or directory is part of a group. That group should be `SFIM` or the name of the `/data/[group]` directory. New files sometimes have the group as an individual's user ID, which means others won't be able to see it. `chgrp -R SFIM directory` will change the group for `directory` and all of the files inside. You can then adjust group access with `chmod -R 2770 directory`. The first `2` means that new files within a directory will (theoretically) inherit the same group name and permissions. The next 3 digits define file owner, group, and world permissions. 7 means a file is read/write/executable, 4 is read only, and 0 is no permissions. You can also consider adding `umask 007` to your `~/.bashrc` on Biowulf, which will allow all members of the directory's group to have write access to new subdirectories automatically.
+
+ Here are some useful options
 
 ```bash
 chmod -R 2770 directory # Owner and group can read/write/execute
