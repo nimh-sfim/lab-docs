@@ -5,7 +5,7 @@ In SFIM, we use the NIH Biowulf cluster to do most of our data analysis. This is
 - Setting up Biowulf
   - [Installing Python](#install-python-on-biowulf)
   - [Automount Helix Drives](#automount-helix-drives)
-  - [SSH Keys](#ssh-keys-for-github-on-biowulf)
+  - [SSH Keys](#ssh-keys)
 - Using Biowulf
   - [Helpful HPC Tutorials](#hpc-tutorials)
   - [Useful Modules](#useful-modules)
@@ -58,7 +58,13 @@ You should be able to access them in MacOS under `/Volumes/` in Terminal.
 Follow additional instructions [here][helix_mount] for MacOS in order to
 improve mount performance.
 
-### SSH Keys for GitHub on Biowulf
+### SSH Keys
+
+#### To connect from a local laptop
+
+You may find it useful to create an SSH key to connect to Biowulf without having to type in your password every time. To do so, you can follow the instructions from [HPC][hpc_ssh_key]. The main difference here is that you need to create your key on your local laptop, then add the public key to your `~/.ssh/authorized_keys` file on Biowulf.
+
+#### For Github
 
 You will want an SSH key on Biowulf to connect with GitHub via the command line. You can follow the same instructions used for [setting up your laptop][set_up_laptop].
 
@@ -149,6 +155,7 @@ For additional information on using VSCode, check out our [VSCode Guide.][vscode
 [biowulf_conda]: biowulf_conda.md
 [biowulf_HPC_conda]: https://hpc.nih.gov/docs/diy_installation/conda.html
 [set_up_laptop]: set_up_laptop.md
+[hpc_ssh_key]:https://hpc.nih.gov/docs/sshkeys.html
 [helix_mount]: <https://hpc.nih.gov/docs/helixdrive.html>
 [module_system]: <https://hpc.nih.gov/apps/modules.html>
 [biowulf_python]: <https://hpc.nih.gov/apps/python.html>
