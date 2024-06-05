@@ -87,6 +87,67 @@ The HPC team has put together an incredible amount of [helpful tutorials][biowul
 
 In addition to the HPC user guide and tutorials, the Data Sharing and Science Team has helpfully created [additional Biowulf resources][hpc_helpers]. Several key tools are the ability to store an environment in an `spersist` node on the cluster, and the ability to easily run BIDS and fMRIPrep validation.
 
+### Using Jupyterlab
+
+#### Creating an spersist session with two tunnels
+
+When using Jupyterlab, you need to create two SSH tunnels. First, open a terminal and connect to Biowulf:
+
+``` bash
+ssh biowulf.nih.gov
+```
+
+Next, create a tmux session:
+
+``` bash
+module load tmux
+tmux new
+```
+
+Now, you can create an spersist session. The command below will also start a VNC server, which is useful if you're using graphically demanding applications (ex. AFNI), but it's not necessary. CPUs and memory can also be edited to suit your needs. The important thing here is that there are two --tunnel flags, which will allow you to connect to Jupyterlab:
+
+``` bash
+spersist --tunnel --tunnel --cpus-per-task=16 --mem=32g --vnc
+```
+
+Copy the SSH command it gives you, then open a new terminal and paste it. It will look something like this:
+
+``` bash
+ssh  -L 00000:localhost:00000 -L 11111:localhost:11111 -L 22222:localhost:22222 username@biowulf.nih.gov
+```
+
+Make sure you save this command, as you will need to input it whenever you lose connection.
+
+#### Opening Jupyterlab
+
+Back in the tmux session, cd to the directory you will be working in and activate your Jupyterlab environment. Then, execute this command, replacing ${PORT1} with the first port in your SSH command. In this example, it is 00000.
+
+``` bash
+jupyter-lab --port ${PORT1} --ip localhost --no-browser
+```
+
+Paste the URL it gives you into your browser and bookmark it. Now you can use Jupyterlab!
+
+Close the tmux window by pressing the 'X' button – do not type 'exit' or it will end the session.
+
+#### Managing your tmux session
+
+If you want ever want to reopen your tmux session, run:
+``` bash
+module load tmux
+tmux ls
+```
+The `ls` command will output the session number. Using it, you can open your session:
+``` bash
+tmux attach -t <session number>
+```
+
+To exit your session, you can simply run:
+``` bash
+exit
+```
+
+
 ### Useful Modules
 
 Biowulf has a [module system][module_system] that is sometimes useful for loading common programs that aren't loaded by default. You can use it to load either the newest version on Biowulf or an older version for a range of programs. Several modules that may be particularly useful for neuroimagers are
