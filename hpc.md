@@ -195,6 +195,12 @@ SFIM_shared_dir/ # shared directory on Biowulf
     └── .git
 ```
 
+If there is a shared directory and files (particularly those in the .git directory) have permissions get changed so they are associated with a single user (rather than the group), you may get an error where Git does not realize a repo exists. If this is the case, you can try to change the group of the directory. You may have to run this command specifically for the `.git` directory if `chgrp` does not touch the hidden directories. 
+
+```bash
+chgrp -R SFIM directory/.git
+```
+
 If you aren't sure what the best structure for your project is, talk to the Scientific Programmer at the beginning of your project to get things set up.
 
 #### Special note when using Git with VSCode
