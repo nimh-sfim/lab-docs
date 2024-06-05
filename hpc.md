@@ -132,7 +132,7 @@ Close the tmux window by pressing the 'X' button – do not type 'exit' or it wi
 
 #### Managing your tmux session
 
-If you want ever want to reopen your tmux session, run:
+If you ever want to reopen your tmux session, run:
 ``` bash
 module load tmux
 tmux ls
