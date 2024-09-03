@@ -6,7 +6,7 @@ A website for hosting useful resources for members of the [Section on Functional
 
 - [Data and Code Policy][lab_policy]: As part of our Data Management and Sharing plan (and federal policy), we have committed to making our data and code publicly available. This page lists specific details about how we implement this.
 - [Supporting Distressed Co-Workers][supporting_coworkers]: As a lab, we hope to be able to support each other to encourage a safe and positive work environment. This page provides resources for well-being, in addition to critical links and phone numbers for critical resources at the NIH.
-- [COVID Guidance][covid_guidance]: This page provides more information on masking policies, what to do if you test positive, and answers to other questions about COVID policy.
+- [Respiratory Virus Guidance](https://ors.od.nih.gov/sr/dohs/safety/NIH-respiratory-virus-guidance/Pages/default.aspx): Central page on responses and policies regarding respiratory viruses (formerly the COVID guidance page). Overall, if someone is being more cautious than you, respect that. If you are more cautious than others and are asked to be in situations where you don't feel comfortable, speak up.
 
 ## Education
 
