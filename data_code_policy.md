@@ -16,6 +16,8 @@ The end goal of this policy is for someone who wasn’t directly involved in a s
 
 - Clearly document which datasets and runs are used in a study and, if there are problematic runs (volunteer behavior or acquisition problems), clearly document how/why.
 
+- All data that includes [Protected Health Information](https://privacyruleandresearch.nih.gov/pr_08.asp), such as names or medical record numbers, can only be stored on encrypted hard drives. This includes DICOM files.
+
 ## Processing and electronic lab notebooks
 
 - Keep all processing scripts that might be used for a publication in a version-controlled github repository.
