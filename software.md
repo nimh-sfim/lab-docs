@@ -38,7 +38,7 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 - We do most of our image processing with [AFNI][afni], because they're real
   swell folks who write good programs.
   They are also just down the hall and they're watching us.
-  - first, install the dependencies from the NIMH Self-Service Portal
+  - first, install the dependencies from the NIMH Self-Service Portal. You may need to manually add homebrew to your path. 
   - then, follow the [instructions online][afni-instructions] for NIH-managed laptops
 - We present subjects in the scanner with stimulus through [PsychoPy][pp].
   - if you are planning on doing eye-tracking, you may also need to download the [EyeLink Developers Toolkit][eyelink-api]. Downloading requires a (free) SR research account to access the forum with the links.
