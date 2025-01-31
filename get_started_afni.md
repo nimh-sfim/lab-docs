@@ -41,6 +41,7 @@ Below are links to some tutorials and documentation that you might find useful a
 - [Working with ROIS][afni_ROIs]
 - Analyzing [task][afni_task_teams] and [rest][afni_rest_teams] data (Note: these are stored on our internal Teams channel)
 - [Work with Layers][afni_layers]
+- [Use AFNI on Biowulf][ap_paper_repo] - Examples from the repo associated with the AFNI_proc.py paper, which all are run on Biowulf. 
 
 ## Help, I'm still confused
 
@@ -72,3 +73,4 @@ For as much as we love AFNI, there can be a steep learning curve for it, especia
 [afni_beginners]: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/afniandafni/gui_readme_tips.html#afni-for-absolute-beginners
 [afni_glossary]: <afni_info/afni_glossary.md>
 [common_afni_progs]: <afni_info/common_afni_programs.md>
+[ap_paper_repo]: <https://github.com/afni/apaper_afni_proc>
