@@ -30,6 +30,22 @@ If you get an email telling you that you need to update your password, you shoul
 
 You may run into an issue when trying to authenticate on various NIH sites using your PIV card if you try to check your certificate before your laptop realizes that you have your card inserted. You might find that you get all sorts of funky messages and it won't let you try to authenticate via PIV card again. If this happens, you can try to quit out of your browswer (i.e. `Command + Q` on a Mac) and then re-open your windows. This should allow you to try to find your PIV card again and all should be well. Alternatively, you can try to use an incognito or private browswer window.
 
+## SSH Keys 
+
+If you log out of your shell (i.e. quit out of Terminal, re-start your laptop, log out of Biowulf, etc) and then try to interact with GitHub, you will likely get an error that looks like: 
+
+```bash
+Permission denied (publickey)
+```
+In most cases, this means that your ssh-agent has been stopped and you need to re-add your identities to the agent. To do so, you can run the following commands: 
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+Note that this command assumes that your SSH keys don't have personal labels and are located in ```~/.ssh```. If this is not the case (you're on Biowulf, or you have given your keys different names), make sure to make those changes in your command. On Biowulf, it is likely that your SSH keys are located in ```/data/$USER/.ssh```, where ```$USER``` is your Biowulf login. 
+
+
 ## Installing Pylink with PsychoPy 
 
 If you want to do work with eye-tracking, you'll need to install the ```pylink``` package, which comes with the [Eyelink Developer's Kit](https://www.sr-research.com/support/forum-9.html). You can follow their instructions to either [install](https://www.sr-research.com/support/thread-8291.html) via ```pip```, or you can install offline by building the included wheel (```pip install *.whl```, where you will need to use the .whl file associated with your version of Python). 
