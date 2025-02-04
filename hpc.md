@@ -68,7 +68,12 @@ You may find it useful to create an SSH key to connect to Biowulf without having
 
 You will want an SSH key on Biowulf to connect with GitHub via the command line. You can follow the same instructions used for [setting up your laptop][set_up_laptop].
 
-If you are using Git on Biowulf, you might get some weird fatal errors when you start a new session. If this happens, try to restart the ssh-agent and re-add the key (instructions [here][ssh-add] from GitHub).
+If you are using Git on Biowulf, you might get some weird fatal errors when you start a new session. If this happens, try to restart the ssh-agent and re-add the key (instructions [here][ssh-add] from GitHub), or code below, replacing ```$USER``` with your Biowulf login, and ```id_ed25519``` if you re-named the key for any reason:
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add /data/$USER/.ssh/id_ed25519
+```
 
 ## Using Biowulf
 
