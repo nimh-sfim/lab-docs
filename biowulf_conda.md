@@ -92,37 +92,6 @@ files only.
 Lastly, you will be prompted to run conda init, which you should reply
 `yes` to.
 
-## Anaconda Professional Token
-
-As of late 2023, we are no longer allowed to use the open-sourced version of Anaconda. However, CIT has acquired Anaconda Professional Licenses for NIH users. To request a license, follow the [instructions from CIT](https://myitsm.nih.gov/selfservice/kb_view_customer.do?sysparm_article=KB0020809&sysparm_rank=1&sysparm_tsqueryId=f5f44ebd1b7ef9d06b94ecace54bcb60) to receive a token.
-
-Once you have recieved a token (usually within 48 business hours of requesting one from CIT), you will need to set it up. This token can be used both for your local laptop and Biowulf (no need to request a second token).
-
-When you set up your token on your Mac laptop, please ensure that you are __not__ on the NIH VPN, as this will cause problems with the setup. You may also have issues installing the token on your personal laptop if you are connected to the internet via Ethernet - if this is the case, try using the NIH-Staff or NIH-Guest wifi networks.
-
-If you are setting up Anaconda/Miniconda from the command line (i.e. on Biowulf), first ensure that you are in your base environment:
-
-``` bash
-conda activate base 
-```
-
-Then you can install the `conda-token`.
-
-``` bash
-conda install conda-token -n base
-```
-
-You should enter 'y' when prompted to proceed with the installation. Once `conda-token` is installed, run the following command:
-
-``` bash
-# Replace <TOKEN> with the organization token you received in your email
-conda token set <TOKEN>
-```
-
-Keep in mind you must complete this process for each computer where you use Anaconda/Miniconda - that is, you must complete this process both on your local laptop/desktop and your Biowulf acccount.
-
-If you don't want to deal with all this, you can also consider [installing Python via mamba](https://github.com/Paradoxdruid/mamba-how-to?tab=readme-ov-file).
-
 ## Configure conda to not activate base
 
 For various reasons, it is not recommended to activate the base conda

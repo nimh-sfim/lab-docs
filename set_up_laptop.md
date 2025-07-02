@@ -52,7 +52,7 @@ You can also use SSH keys to make your life easier and not have to enter your Bi
 
 ## Set up Python
 
-A lot of the work we do is in Python, so it will behoove you to have an updated distribution of Python installed on your laptop and on Biowulf. Please see our detailed instructions on [installing Python on Biowulf via miniconda][python_biowulf] for how to do this without making HPC mad at us. Please ensure that you follow the instructions on acquiring an Anaconda Professional Token from CIT if you install Python through [miniconda][conda_install] (the same token can be used for your local laptop and Biowulf). You also can consider installing Python via [micromamba][mamba_install].
+A lot of the work we do is in Python, so it will behoove you to have an updated distribution of Python installed on your laptop and on Biowulf. Please see our detailed instructions on [installing Python on Biowulf via miniconda][python_biowulf] for how to do this without making HPC mad at us. You also can consider installing Python via [micromamba][mamba_install] or [uv][uv_install].
 
 A big advantage of using conda or mamba is you can set up multiple python environments. This is particularly useful if one python program installs a lot of other python packages with specific version numbers that mess up other things you are doing with python. We recommend having a general environment for most things you do (i.e. including `numpy, scipy, matplotlib, pandas, and jupyter`), and separate environments for anything that might install a wider range of distinct packages. the [miniconda][conda_install] and [micromamba][mamba_install] installation instructions include information on creating and naming multiple environments.
 
@@ -126,4 +126,5 @@ Additional information from the NIH HPC team about creating automounts is [here]
 [role_based_training]: https://irtsectraining.nih.gov/
 [conda_install]: https://docs.anaconda.com/free/miniconda/miniconda-install/
 [mamba_install]: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+[uv_install]: https://docs.astral.sh/uv/getting-started/installation/
 [keychain]: https://support.apple.com/guide/keychain-access/mac-keychain-password-kyca1242/mac
