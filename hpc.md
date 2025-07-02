@@ -81,8 +81,8 @@ ssh-add /data/$USER/.ssh/id_ed25519
 
 The HPC team has put together an incredible amount of [helpful tutorials][biowulf_tutorials], including a [user guide][biowulf_guide] for common tasks and commands. There are many of them, but the following may be particularly useful as you get started:
 
-- Connect to NIH HPC systems on your [Mac][biowulf_connect_mac] or via [NoMachine][biowulf_connect_nx]
-  - You can connect to Biowulf through the Terminal using `ssh`, but using NoMachine may be necessary if you are using graphical applications.
+- Connect to NIH HPC systems on your [Mac][biowulf_connect_mac], [TurboVNC][biowulf_turbovnc] or [OnDemand][biowulf_ondemand]
+  - You can connect to Biowulf through the Terminal using `ssh`, but using TurboVNC or OnDemand may be necessary if you are using graphical applications.
 - [Using Jupyter Notebooks on Biowulf][biowulf_jupyter]
   - If you want to run a Jupyter Notebook that connects to a compute node, you must create an SSH Tunnel. This requires a few specific steps outlined in the HPC documentation.
 - [NIMH-specific resources][biowulf_nimh]
@@ -138,20 +138,22 @@ Close the tmux window by pressing the 'X' button – do not type 'exit' or it wi
 #### Managing your tmux session
 
 If you ever want to reopen your tmux session, run:
+
 ``` bash
 module load tmux
 tmux ls
 ```
 The `ls` command will output the session number. Using it, you can open your session:
+
 ``` bash
 tmux attach -t <session number>
 ```
 
 To exit your session, you can simply run:
+
 ``` bash
 exit
 ```
-
 
 ### Useful Modules
 
@@ -183,7 +185,7 @@ chmod -R 2740 directory # Owner can read/write/execute and group members can rea
 
 Unless you are sharing files that do not contain personnally identifiable information (PII) with an out-group Biowulf user, **never** make files world-readable on Biowulf. If you have an ongoing collaboration with someone outside of SFIM, request a new group where you can define who has access. For example, `SFIMLBC` has been used for some collaborations between SFIM and other LBC lab members.
 
-For more details and guidance from the HPC team, see their documetnation [here][biowulf_permissions].
+For more details and guidance from the HPC team, see their documentation [here][biowulf_permissions].
 
 ### Using Git on Biowulf
 
@@ -200,7 +202,7 @@ SFIM_shared_dir/ # shared directory on Biowulf
     └── .git
 ```
 
-If there is a shared directory and files (particularly those in the .git directory) have permissions get changed so they are associated with a single user (rather than the group), you may get an error where Git does not realize a repo exists. If this is the case, you can try to change the group of the directory. You may have to run this command specifically for the `.git` directory if `chgrp` does not touch the hidden directories. 
+If there is a shared directory and files (particularly those in the .git directory) have permissions get changed so they are associated with a single user (rather than the group), you may get an error where Git does not realize a repo exists. If this is the case, you can try to change the group of the directory. You may have to run this command specifically for the `.git` directory if `chgrp` does not touch the hidden directories.
 
 ```bash
 chgrp -R SFIM directory/.git
@@ -223,7 +225,8 @@ For additional information on using VSCode, check out our [VSCode Guide.][vscode
 [biowulf_tutorials]: <https://hpc.nih.gov/training/intro_biowulf/>
 [biowulf_guide]: <https://hpc.nih.gov/docs/userguide.html>
 [biowulf_connect_mac]: https://hpc.nih.gov/docs/connect.html
-[biowulf_connect_nx]: https://hpc.nih.gov/docs/nx.html
+[biowulf_turbovnc]: https://hpc.nih.gov/docs/svis.html
+[biowulf_ondemand]: https://hpc.nih.gov/ondemand/
 [biowulf_conda]: biowulf_conda.md
 [biowulf_HPC_conda]: https://hpc.nih.gov/docs/diy_installation/conda.html
 [set_up_laptop]: set_up_laptop.md

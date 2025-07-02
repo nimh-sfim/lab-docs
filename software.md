@@ -15,22 +15,19 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 ## Text Editors
 
 - For people who prefer to have graphical interfaces, or who work with
-  various rich text formats, we recommend [Visual Studio Code][vscode]. VSCode is also has good features for working on biowulf can effectively do everything one might do on NoMachine except opening other graphical programs, like the AFNI interface. Here is our [VSCode guide][vscode_guide]
+  various rich text formats, we recommend [Visual Studio Code][vscode]. VSCode also has good features for working on Biowulf. Here is our [VSCode guide][vscode_guide]
 - For people who are kind of command savvy, but would still like a graphical
   interface, and don't work with a lot of markup text,
   [Sublime][sublime] is a good option.
-- For the people who love the command line and inhabit it, Josh, our former scientific programmer,
-  recommends vim (installed on MacOS and Linux by default), but if you love the command line and
-  inhabit it, you probably already have an opinion on the best text editor and don't care what
-  Josh thinks. If that's not you, consider one of the graphical editors.
+- For the people who love the command line and inhabit it, Josh, our former scientific programmer, recommends vim (installed on MacOS and Linux by default), but if you love the command line and inhabit it, you probably already have an opinion on the best text editor and don't care what Josh thinks. If that's not you, consider one of the graphical editors.
 
 ## Programming Packages
 
-- [miniconda3][mc3] is the preferred way of managing your python
-  environments.
-  Back in our day, we had to manage our own environments.
+- [miniconda3][mc3] or [mamba][mamba] are two ways managing your python
+  environments. Back in our day, we had to manage our own environments.
   We do *not* recommend it.
-- For those who want an IDE that isn't purely comamnd line, we recommend
+- [uv][uv] is a newer, faster package management system. uv may not be right for you if you're building complex environments with compiled binaries.
+- For those who want an IDE that isn't purely command line, we recommend
   [VSCode][vscode] for Python development.
 
 ## Scientific Software
@@ -61,14 +58,10 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 - [Gimp][gimp] is an image editing program that's open source and competes
   with Photoshop.
 - [Inkscape][inkscape] is another open source option that is comparable to Illustrator.
-- [NoMachine][nomachine] and [turbovnc][tvnc] are both VNC servers that
-  allow you to have graphical windows on Biowulf and allow for your
-  terminal sessions to persist.
+- [turbovnc][tvnc] is a VNC server that  allow you to have graphical windows on Biowulf and allow for your terminal sessions to persist.
   - turbovnc can look sketchy but this link is actually correct.
     Download the disk image for it and open it in Finder.
     Open the .dmg file and then run TurboVNC.pkg, following instructions.
-  - NoMachine you will install similarly to turbovnc.
-    Sometimes advanced MATLAB graphics may not render correctly.
 - EndNote, to manage references, can be installed from "NIMH Self Service Portal" Other options (which can not be installled from the NIMH Self Service Portal) include [Zotero][zotero], [Mendeley][mendeley] or [ReadCube Papers][papers].
 - Adobe Acrobat - MacOS comes with the built-in Preview to view PDFs, images, etc, but you may need to install Adobe Acrobat to be able to digitally sign PDFs with your PIV card. You can install the software itself from the Self Service Portal, but will need to ask IT to add your user account to the Adobe group in order to use it.
   - if you need Illustrator (or other Adobe software), ask first, as we may need to pay for an account.
@@ -96,14 +89,15 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
     1. Open the Terminus app
     1. It will ask you to sign in, but it is not necessary, you can
        continue as a guest.
-    1. Create a new connection in the SSH section to biowulf the same way
-       you would do in NoMachine.
+    1. Create a new connection in the SSH section to biowulf.
     1. Press connect.
 
 [vscode]: <https://code.visualstudio.com>
 [vscode_guide]: vscode_guide.md
 [sublime]: <https://www.sublimetext.com>
 [mc3]: <https://docs.conda.io/en/latest/miniconda.html>
+[mamba]: <https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html>
+[uv]: <https://docs.astral.sh/uv/getting-started/installation/>
 [afni]: <https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html>
 [afni-instructions]:https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_macOS_12_Silicon.html#quick-setup-special-case-nimh-administered-computers
 [pp]: <https://www.psychopy.org>
@@ -112,7 +106,6 @@ Some of these software recommendations can be downloaded from the NIMH Self-Serv
 [slack]: <https://slack.com>
 [gimp]: <http://gimp.org>
 [inkscape]: https://inkscape.org/
-[nomachine]: <https://www.nomachine.com>
 [tvnc]: <https://sourceforge.net/projects/turbovnc/files/latest/download>
 [zotero]: https://www.zotero.org/
 [mendeley]: https://www.mendeley.com/

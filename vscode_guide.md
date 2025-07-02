@@ -57,9 +57,9 @@ One benefit of using VSCode is that you can add any number of extensions to cust
 
 ### Operating directly on a Compute Node
 
-VS Code has some nice features for using with Biowulf. Noteably, with the [remote development][remote_development] extension, you can open a local copy of VS Code to save and edit scripts with no network lag, but, have scripts and command executions happen on a Biowulf node. Within VS Code, you can open a terminal window do anything on Biowulf. You can even open graphical programs like AFNI through VS Code, but that will be noticably slower compared to running them through NoMachine or TurboVNC.
+VS Code has some nice features for using with Biowulf. Noteably, with the [remote development][remote_development] extension, you can open a local copy of VS Code to save and edit scripts with no network lag, but, have scripts and command executions happen on a Biowulf node. Within VS Code, you can open a terminal window do anything on Biowulf. You can even open graphical programs like AFNI through VS Code, but that will be noticably slower compared to running them through TurboVNC.
 
-VS Code runs a remote server on Biowulf, just like NoMachine so, as long as you keep a compute node, you'll able to disconnect and reconnect to the network without affecting your working environment. If you're editing a script on your laptop, and it disconnects from the network, everything will be the same when you reconnect. Put another way, if you're doing work that involves a terminal and text editing, you can use VS Code instead of NoMachine. You can also run Jupyter notebooks within VS Code [without tunneling][jupyter_guide].
+VS Code runs a remote server on Biowulf, so, as long as you keep a compute node, you'll able to disconnect and reconnect to the network without affecting your working environment. If you're editing a script on your laptop, and it disconnects from the network, everything will be the same when you reconnect. Put another way, if you're doing work that involves a terminal and text editing, you can use VS Code instead of TurboVNC. You can also run Jupyter notebooks within VS Code [without tunneling][jupyter_guide].
 
 [Here is a guide][vscode_biowulf_guide] to connecting directly to an interactive or persistent node on Biowulf and doing remote development. The key steps are to:
 
@@ -73,9 +73,9 @@ VS Code runs a remote server on Biowulf, just like NoMachine so, as long as you 
     ProxyCommand /usr/bin/ssh -o ForwardAgent=yes $username@biowulf.nih.gov nc -w 120ms %h %p
     ```
 
-1. Start an spersist node on Biowulf and note the node number (i.e `cn2728`). Make sure you request the node in a place where it would remain active if you're internet disconnects. That is request the node through NoMachine or `tmux`
+1. Start an spersist node on Biowulf and note the node number (i.e `cn2728`). Make sure you request the node in a place where it would remain active if you're internet disconnects. That is request the node through OnDemand or `tmux`
 1. With the Remote Developer Exension installed, the bottom left corner of VS Code should be a symbol like `><` in blue or green. Clicking on it will let you `Connect Current Window to Host` or `Connect to Host` (which will open a new VS Code window). Type in just the node number that you got in the previous step (i.e. `cn2728`) to connect. **Note** that if you are asked to enter your passphrase multiple times, try to reconnect from a VSCode window that you have opened from a Terminal with SSH keys already added via `ssh-add` so that it inherits the various settings and environments necessary to use the keys.
-1. There is an added issue with python environments on VS code. If you set conda or miniconda as your default python environment in your `~/.profile` then NoMachine and some other programs won't function. That means you need to change to this environment later. When you open a python file in VS Code, it will either ask you to select your python interpreter or the current version will appear on the bottom right of the VSCode window. If you click on it your desired version should appear on that list or you can type the full path.
+1. There is an added issue with python environments on VS code. If you set conda or miniconda as your default python environment in your `~/.profile` then some programs won't function. That means you need to change to this environment later. When you open a python file in VS Code, it will either ask you to select your python interpreter or the current version will appear on the bottom right of the VSCode window. If you click on it your desired version should appear on that list or you can type the full path.
 
 ### GitHub and VS Code on Biowulf
 
