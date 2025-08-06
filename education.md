@@ -55,6 +55,7 @@ data).
 - [Awesome Python][awesome] (Reference for Python Frameworks)
 - [Chris Yeh's Definitive Guide to Python import statements][cy_import] (For people making packages)
 - [Python for the practicing neuroscientist][python_kramer] (more for lower level signal analysis)
+- [Python Graph Gallery][py_graph_gallery] (code examples for a wide range of data visualizations)
 
 ### MATLAB
 
@@ -180,6 +181,7 @@ Some of these books are available online and others we might have hard copies. A
 [fsp]: <https://www.fullstackpython.com>
 [awesome]: <https://github.com/vinta/awesome-python>
 [python_kramer]: <https://elifesciences.org/labs/f779833b/python-for-the-practicing-neuroscientist-an-online-educational-resource>
+[py_graph_gallery]: <https://python-graph-gallery.com/>
 [swc_matlab]: <http://swcarpentry.github.io/matlab-novice-inflammation/>
 [cy_import]: <https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html>
 [hpc_bash]: <https://hpc.nih.gov/training/bash_class/>
