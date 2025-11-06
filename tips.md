@@ -72,3 +72,51 @@ mamba activate idp
 ```
 
 Note that you may wish to change the name of the environment and the version of Python. Currently (as of 11/6/25), the options available are Python 3.11 and 3.12, but this may change in the future.
+
+## Getting Code Versions
+
+When you're finalizing your project for publication, you'll need to have a list of versions of packages and software used for your analyses. Here's how to do this depending on what software stack you're using.
+
+### Python
+
+If you're writing code in Python, there are a few different ways to get this information, depending on how you're managing your environments.
+
+If you're using conda:
+
+```bash
+
+conda activate ENV_NAME # activate your environment
+conda list # list out all versions 
+conda env export > environment.yml # export environment to a yml file that can be used to recreate environment
+```
+
+If you're using mamba, the command is exactly the same format:
+
+```bash
+mamba activate ENV_NAME
+mamba env export > environment.yaml
+```
+
+If you're using pip:
+
+```bash
+pip freeze > requirements.txt
+```
+
+### MATLAB
+
+To get version information about all currently installed MATLAB packages, you can run:
+
+```bash
+ver
+```
+
+### R
+
+If you're using R, the relevant information for all packages loaded in your workspace is one command:
+
+```R
+sessionInfo()
+```
+
+If you're interested in doing environment management in R like you do with conda/mamba/pip in Python, consider looking into the [packrat](https://rstudio.github.io/packrat/walkthrough.html) package
