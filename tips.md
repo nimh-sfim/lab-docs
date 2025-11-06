@@ -30,24 +30,45 @@ If you get an email telling you that you need to update your password, you shoul
 
 You may run into an issue when trying to authenticate on various NIH sites using your PIV card if you try to check your certificate before your laptop realizes that you have your card inserted. You might find that you get all sorts of funky messages and it won't let you try to authenticate via PIV card again. If this happens, you can try to quit out of your browswer (i.e. `Command + Q` on a Mac) and then re-open your windows. This should allow you to try to find your PIV card again and all should be well. Alternatively, you can try to use an incognito or private browswer window.
 
-## SSH Keys 
+## SSH Keys
 
-If you log out of your shell (i.e. quit out of Terminal, re-start your laptop, log out of Biowulf, etc) and then try to interact with GitHub, you will likely get an error that looks like: 
+If you log out of your shell (i.e. quit out of Terminal, re-start your laptop, log out of Biowulf, etc) and then try to interact with GitHub, you will likely get an error that looks like:
 
 ```bash
 Permission denied (publickey)
 ```
-In most cases, this means that your ssh-agent has been stopped and you need to re-add your identities to the agent. To do so, you can run the following commands: 
+
+In most cases, this means that your ssh-agent has been stopped and you need to re-add your identities to the agent. To do so, you can run the following commands:
 
 ```bash
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
-Note that this command assumes that your SSH keys don't have personal labels and are located in ```~/.ssh```. If this is not the case (you're on Biowulf, or you have given your keys different names), make sure to make those changes in your command. On Biowulf, it is likely that your SSH keys are located in ```/data/$USER/.ssh```, where ```$USER``` is your Biowulf login. 
 
+Note that this command assumes that your SSH keys don't have personal labels and are located in ```~/.ssh```. If this is not the case (you're on Biowulf, or you have given your keys different names), make sure to make those changes in your command. On Biowulf, it is likely that your SSH keys are located in ```/data/$USER/.ssh```, where ```$USER``` is your Biowulf login.
 
-## Installing Pylink with PsychoPy 
+## Installing Pylink with PsychoPy
 
-If you want to do work with eye-tracking, you'll need to install the ```pylink``` package, which comes with the [Eyelink Developer's Kit](https://www.sr-research.com/support/forum-9.html). You can follow their instructions to either [install](https://www.sr-research.com/support/thread-8291.html) via ```pip```, or you can install offline by building the included wheel (```pip install *.whl```, where you will need to use the .whl file associated with your version of Python). 
+If you want to do work with eye-tracking, you'll need to install the ```pylink``` package, which comes with the [Eyelink Developer's Kit](https://www.sr-research.com/support/forum-9.html). You can follow their instructions to either [install](https://www.sr-research.com/support/thread-8291.html) via ```pip```, or you can install offline by building the included wheel (```pip install *.whl```, where you will need to use the .whl file associated with your version of Python).
 
-One important note is that if you wish to use pylink in the context of PsychoPy's Builder or Coder, you need to ensure that the standalone version of Python that is shipped with PsychoPy can access the pylink package. To do so, you should find where the pylink package has been installed to your computer (one way is to run ```pip show sr-research-pylink```). From there, you will need to copy the whole directory to PsychoPy's version of Python - this is likely somewhere like ```/Applications/PsychoPy.app/Contents/Resources/lib/python3.10``` (although it may be a different version of Python). You can just copy the whole package directory into this folder. If you have installed the package offline via a wheel, you may have to rename the ```pylink_c_somestuffhere.so``` to just ```pylink_c.so```. 
+One important note is that if you wish to use pylink in the context of PsychoPy's Builder or Coder, you need to ensure that the standalone version of Python that is shipped with PsychoPy can access the pylink package. To do so, you should find where the pylink package has been installed to your computer (one way is to run ```pip show sr-research-pylink```). From there, you will need to copy the whole directory to PsychoPy's version of Python - this is likely somewhere like ```/Applications/PsychoPy.app/Contents/Resources/lib/python3.10``` (although it may be a different version of Python). You can just copy the whole package directory into this folder. If you have installed the package offline via a wheel, you may have to rename the ```pylink_c_somestuffhere.so``` to just ```pylink_c.so```.
+
+## Intel Distribution of Python
+
+For some scientific computing purposes, you may wish to install an [Intel distribution of Python](https://www.intel.com/content/www/us/en/developer/tools/oneapi/distribution-for-python.html). This version of Python is optimized for linear algebra functions in NumPy and SciPy, which can drastically speed up computation times. Instructions to install this distribution are [here](https://www.intel.com/content/www/us/en/developer/tools/oneapi/distribution-python-download.html), but for convenience, the relevant commands are below.
+
+To install with conda:
+
+```bash
+conda create -n idp intelpython3_full python=3.12 -c https://software.repos.intel.com/python/conda -c conda-forge --override-channels
+conda activate idp
+```
+
+To install with mamba:
+
+```bash
+mamba create -n idp intelpython3_full python=3.12 -c https://software.repos.intel.com/python/conda -c conda-forge --override-channels
+mamba activate idp
+```
+
+Note that you may wish to change the name of the environment and the version of Python. Currently (as of 11/6/25), the options available are Python 3.11 and 3.12, but this may change in the future.
