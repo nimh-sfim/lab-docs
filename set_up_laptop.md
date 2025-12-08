@@ -7,7 +7,8 @@ If you're new to SFIM, welcome! On this page, we've got a list of tips and trick
 - [Set up SSH Keys](#set-up-ssh-keys)
 - [Set up Python](#set-up-python)
 - [Aliases](aliases)
-- [Other potentially useful suggestions](#set-up-and-download-other-useful-things)
+- [Set up and download other useful things](#set-up-and-download-other-useful-things)
+- [Transferring to a new laptop](#transferring-to-a-new-laptop)
 
 ## Download Software
 
@@ -116,6 +117,41 @@ When you run it, it will mount the directories.
 You should be able to access them in MacOS under `/Volumes/` in Terminal so that `/Volumes/NIMH_SFIM` on your laptop will be the same as `/data/NIMH_SFIM` on biowulf.
 
 Additional information from the NIH HPC team about creating automounts is [here][hpc_mount].
+
+## Transferring to a new laptop
+
+It is generally not advisable to use Mac's migration assistant to transfer apps, software, and settings.
+Since NIH internally manages a lot of software and also installs a range of programs to support this management,
+copying over everything is likely to both mess with some managed software and possibly reinstall unnecessary
+and older versions of NIH management software. Current recommendations are:
+
+- Identify software and do clean installations of desired software from one's previous computer.
+- They may include re-doing many of the above steps in this document
+- Make sure to open reinstalled software and make sure personalized settings aren't lost.
+  If they are lost, then identify which libraries/files/settings are neccessary to copy over.
+  For example, if one is using a reference manager with local pdfs or you have local settings for VSCode,
+  those may be useing to move.
+- Since Mac's AirDrop and other sharing methods are currently blocked for (valid) security reasons,
+there are several ways to copy files.
+  - You can use Mac's Migration Assistant or [Target Disk Mode](https://support.apple.com/guide/mac-help/transfer-files-mac-computers-target-disk-mode-mchlp1443/mac).
+  If you used Migration Assistant, make sure to transfer only data files (i.e. one's Doc's folder) 
+  and not software or other more centralized settings.
+  These options are probably the fastest, but they involved rebootting one or both computers into a special mode,
+  which may make it harder to compare settings and test things during the transfer.
+  - Copy files to an external drive and then to the new computer
+  - Put both computers on the same internal network (i.e. the wired network at NIH, not wifi),
+  turn on the General->Sharing->File Sharing setting on one of the computers,
+  in Finder, go to Shared or Network to find the ID of the target computer,
+  and then connect and log into the shared computer.
+  You can then drag and drop files to the new computer and it will save time stamps and will be able to restart if the connection is broken.
+  This option is probably slowest, but it's easy to run in the background and overnight,
+  and to test things and use the computer during copying.
+  For security, make sure to turn file sharing off, when this is done.
+- What to copy
+  - Likely your entire Documents folder and wherever you keep code and data
+  - Your public and private SSH keys (if copied correctly, they'll keep working and you won't need to regenerate new keys to keep working with biowulf, github, etc)
+  - Look through other config scripts in your $HOME directory (visible with `ls -la $HOME`) to see if any have useful configurations to copy that weren't already recreated when installing AFNI, python etc on the new computer.
+  - That thing thats in the library of an important piece of software you use 3 times a year that you're going to forget about, even though this bullet point is included as a reminder.
 
 [software]: <software.md>
 [ssh-keys]:<https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
