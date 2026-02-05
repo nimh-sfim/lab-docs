@@ -51,6 +51,19 @@ Note that especially if you're using SSH keys with GitHub on Biowulf, you might 
 
 You can also use SSH keys to make your life easier and not have to enter your Biowulf password every time. NIH HPC has provided [instructions][biowulf_ssh_key] on how to set up an SSH Key with Biowulf. The GitHub instructions for making a public and private key are more clear and you can use the same keys with Biowulf. The same private key should remain on your laptop, but follow the Biowulf instructions to add the public key to your `authorized_keys` file on Biowulf.
 
+## Keep your email address private on GitHub
+
+My default, git will use the email address you used to create your github account
+and this email address will be publicly viewable in every github commit message.
+This presents a potential security and privacy risk.
+GitHub can create a no-reply email address, like \#\#\#\#\#\#+UserID\@users.noreply.github.com,
+that is linked to you account, and would keep your actual email address hidden.
+
+To set this up, go to  https://github.com/settings/emails  and make sure “Keep my email addresses private” is on.
+Your noreply email address will also appear near the top of that page.
+[Follow these instructions](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address)
+to set your email address to your noreply address for every repository on your computer.
+
 ## Set up Python
 
 A lot of the work we do is in Python, so it will behoove you to have an updated distribution of Python installed on your laptop and on Biowulf. Please see our detailed instructions on [installing Python on Biowulf][python_biowulf] for how to do this without making HPC mad at us. You also can consider installing Python via [micromamba][mamba_install] or [uv][uv_install].
