@@ -144,7 +144,7 @@ Some of these books are available online and others we might have hard copies. A
 [layerfmri]: https://layerfmri.com
 [spin_resonates]: http://spinthatresonates.blogspot.com
 [practical_fmri]: https://practicalfmri.blogspot.com
-[fmri_nih_summer]: https://fmrif.nimh.nih.gov/index.php/SummerCourse
+[fmri_nih_summer]: https://fmrif.nimh.nih.gov/SummerCourse
 [basics_mri]: http://www.cis.rit.edu/htbooks/mri/inside.htm
 [afni_camp_yt]: https://www.youtube.com/channel/UC40RiNZN7_dCuB6Lg7HJl1g
 [Tom_Liu_MRI]: https://www.youtube.com/playlist?list=PLn7hWU9T1O6FExueed50s9Wl98dzSLmXL
