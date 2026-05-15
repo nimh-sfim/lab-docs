@@ -212,13 +212,22 @@ If you aren't sure what the best structure for your project is, talk to the Scie
 
 #### Special note when using Git with VSCode
 
-In order to interact with GitHub repos when you're connected to a compute node on VSCode via the Remote Developer Extension, you must have added the following to `~/.ssh/config` on Biowulf, replacing `$username` with your Biowulf username. Note that for this to work, the repository must be cloned using `https` not `ssh`.
+In order to interact with GitHub repos when you're connected to a compute node on VSCode via the Remote Developer Extension, you must have added the following to `~/.ssh/config` on Biowulf, replacing `$username` with your Biowulf username.
 
 ```SSH Config
 Host github.com
   User git
   ProxyCommand /usr/bin/ssh -o ForwardAgent=yes $username@biowulf.nih.gov nc -w 120ms %h %p
 ```
+
+Once you have this in your config file, you may still need to activate the ssh-agent and add your SSH key: 
+
+```bash 
+eval "$(ssh-agent -s)
+ssh-add ${your_key_location_and_name}
+```
+
+It is likely that your key is in your home director y(```~/.ssh/```) but if you have multiple keys, you may have re-named it to something specific.
 
 For additional information on using VSCode, check out our [VSCode Guide.][vscode_guide]
 
