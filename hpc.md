@@ -125,7 +125,7 @@ Make sure you save this command, as you will need to input it whenever you lose 
 
 #### Opening Jupyterlab
 
-Back in the tmux session, cd to the directory you will be working in and activate your Jupyterlab environment. Then, execute this command, replacing ${PORT1} with the first port in your SSH command. In this example, it is 00000.
+Back in the tmux session, cd to the directory you will be working in and activate your Jupyterlab environment. Then, execute this command:
 
 ``` bash
 jupyter-lab --port ${PORT1} --ip localhost --no-browser
