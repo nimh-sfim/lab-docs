@@ -124,6 +124,7 @@ If you're looking to make the switch from MATLAB to Python, below are some cheat
   - [Part One - Coursera][p_fmri_1]
   - [Part Two - Coursera][p_fmri_2]
   - [Youtube (open-source)][p_fmri_youtube]
+- [Elements of fMRI][elements_of_fmri]: Tutorials created by Tor Wager and Martin Lindquist (who created the Principles of fMRI course above) on how to do fMRI analysis
 - [Assaf Tal Lectures][physics_mri]: Lectures on MRI physics
 - [Neurohackademy][neurohack]: Neurohackademy is a summer course hosted by UW that focuses on the intersection of data science and neuroscience. In addition to their machine learning course, they have other great educational material, so check out the other lectures as well.
 - [DartBrains][dartbrains]: Dartmouth course (created by Luke Chang) geared towards analyzing fMRI data in Python.
@@ -204,3 +205,4 @@ Some of these books are available online and others we might have hard copies. A
 [jhu]: <https://www.coursera.org/specializations/jhu-data-science>
 [task_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_01_TaskData.docx?d=w3f37284d446246989b3dcd06ce3d4c6f&csf=1&web=1&e=1HmtjE
 [rest_data_tutorial]: https://nih.sharepoint.com/:w:/r/sites/NIMH-SFIM/Shared%20Documents/Tutorials/SFIM_Tutorial_02_RestData.docx?d=w3de2a412cf46460cb40d5d0c23a46dd0&csf=1&web=1&e=9dVUdO
+[elements_of_fmri]: https://torwager.github.io/elements-of-fmri-tutorials/
